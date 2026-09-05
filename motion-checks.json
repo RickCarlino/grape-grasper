@@ -1,0 +1,157 @@
+{
+  "motion": [
+    {
+      "angle": 0,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 1,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 2,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 3,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 4,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 5,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 6,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 7,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 8,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 9,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 10,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 11,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 12,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 13,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 14,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 15,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 16,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 17,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 18,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 19,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    },
+    {
+      "angle": 20,
+      "trigger_frame_mm3": 0,
+      "jaw_frame_mm3": 0,
+      "rod_printed_mm3": 0,
+      "tube_printed_mm3": 0
+    }
+  ],
+  "layout_overlaps": [],
+  "analytic": {
+    "rod_stroke_mm": 2.394141003279681,
+    "jaw_gap_at_16mm_mm": 5.653244430852974,
+    "finger_motion_mm": 17.101007166283434
+  }
+}
