@@ -1,4 +1,151 @@
 {
+  "nose-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 1410.848,
+    "volume_change_mm3": 0.00046,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -25.0,
+        -7.2,
+        0.0
+      ],
+      [
+        13.4,
+        11.14,
+        4.7
+      ]
+    ],
+    "triangles": 2570
+  },
+  "nose-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 1410.848,
+    "volume_change_mm3": 0.00046,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -25.0,
+        -11.14,
+        0.0
+      ],
+      [
+        13.4,
+        7.2,
+        4.7
+      ]
+    ],
+    "triangles": 2570
+  },
+  "jaw-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 200.575,
+    "volume_change_mm3": 8e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -3.4,
+        -6.4,
+        0.0
+      ],
+      [
+        17.0,
+        7.4,
+        2.0
+      ]
+    ],
+    "triangles": 962
+  },
+  "jaw-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 200.575,
+    "volume_change_mm3": 8e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -3.4,
+        -7.4,
+        0.0
+      ],
+      [
+        17.0,
+        6.4,
+        2.0
+      ]
+    ],
+    "triangles": 962
+  },
+  "fixed-jaw": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 320.098,
+    "volume_change_mm3": -5e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        3.6,
+        -10.9,
+        0.0
+      ],
+      [
+        18.0,
+        0.0,
+        4.6
+      ]
+    ],
+    "triangles": 884
+  },
+  "head-layout": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 5,
+    "volume_mm3": 3542.919,
+    "volume_change_mm3": -0.00211,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        2.0,
+        -1.14,
+        0.0
+      ],
+      [
+        88.4,
+        52.4,
+        4.7
+      ]
+    ],
+    "triangles": 7960
+  },
+  "layout": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 8,
+    "volume_mm3": 21011.813,
+    "volume_change_mm3": -0.0303,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -8.0,
+        2.5,
+        0.0
+      ],
+      [
+        181.0,
+        152.4,
+        6.2
+      ]
+    ],
+    "triangles": 18266
+  },
   "handle-a": {
     "watertight": true,
     "winding_consistent": true,
@@ -41,48 +188,6 @@
     ],
     "triangles": 3664
   },
-  "nose-a": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 1,
-    "volume_mm3": 2634.944,
-    "volume_change_mm3": -0.00102,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -27.0,
-        -8.5,
-        0.0
-      ],
-      [
-        18.0,
-        13.0,
-        6.2
-      ]
-    ],
-    "triangles": 2442
-  },
-  "nose-b": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 1,
-    "volume_mm3": 2634.944,
-    "volume_change_mm3": -0.00102,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -27.0,
-        -13.0,
-        0.0
-      ],
-      [
-        18.0,
-        8.5,
-        6.2
-      ]
-    ],
-    "triangles": 2442
-  },
   "trigger": {
     "watertight": true,
     "winding_consistent": true,
@@ -103,47 +208,5 @@
       ]
     ],
     "triangles": 2964
-  },
-  "jaw": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 1,
-    "volume_mm3": 585.66,
-    "volume_change_mm3": -0.0004,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -3.4,
-        -7.4,
-        0.0
-      ],
-      [
-        17.5,
-        6.4,
-        6.0
-      ]
-    ],
-    "triangles": 1542
-  },
-  "layout": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 6,
-    "volume_mm3": 23324.415,
-    "volume_change_mm3": -0.02985,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -8.0,
-        2.5,
-        0.0
-      ],
-      [
-        186.5,
-        113.0,
-        6.2
-      ]
-    ],
-    "triangles": 16762
   }
 }

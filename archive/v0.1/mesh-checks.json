@@ -1,0 +1,149 @@
+{
+  "handle-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 6703.577,
+    "volume_change_mm3": 0.0029,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -40.0,
+        -12.5,
+        0.0
+      ],
+      [
+        29.0,
+        60.0,
+        6.2
+      ]
+    ],
+    "triangles": 3664
+  },
+  "handle-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 6703.577,
+    "volume_change_mm3": 0.0029,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -40.0,
+        -60.0,
+        0.0
+      ],
+      [
+        29.0,
+        12.5,
+        6.2
+      ]
+    ],
+    "triangles": 3664
+  },
+  "nose-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 2634.944,
+    "volume_change_mm3": -0.00102,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -27.0,
+        -8.5,
+        0.0
+      ],
+      [
+        18.0,
+        13.0,
+        6.2
+      ]
+    ],
+    "triangles": 2442
+  },
+  "nose-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 2634.944,
+    "volume_change_mm3": -0.00102,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -27.0,
+        -13.0,
+        0.0
+      ],
+      [
+        18.0,
+        8.5,
+        6.2
+      ]
+    ],
+    "triangles": 2442
+  },
+  "trigger": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 4061.731,
+    "volume_change_mm3": 0.00211,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -12.0,
+        -59.0,
+        0.0
+      ],
+      [
+        12.0,
+        11.5,
+        6.0
+      ]
+    ],
+    "triangles": 2964
+  },
+  "jaw": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 585.66,
+    "volume_change_mm3": -0.0004,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -3.4,
+        -7.4,
+        0.0
+      ],
+      [
+        17.5,
+        6.4,
+        6.0
+      ]
+    ],
+    "triangles": 1542
+  },
+  "layout": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 6,
+    "volume_mm3": 23324.415,
+    "volume_change_mm3": -0.02985,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        -8.0,
+        2.5,
+        0.0
+      ],
+      [
+        186.5,
+        113.0,
+        6.2
+      ]
+    ],
+    "triangles": 16762
+  }
+}

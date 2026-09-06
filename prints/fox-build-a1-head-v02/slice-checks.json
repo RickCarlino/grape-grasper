@@ -1,0 +1,59 @@
+{
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1",
+  "printer_model_id": "N2S",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "bed": "Textured PEI Plate",
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.2,
+  "wall_loops": 4,
+  "infill": "50% gyroid",
+  "support": "Disabled; every head part has a full flat bed face",
+  "brim": "2 mm outside only",
+  "estimated_seconds": 2012,
+  "estimated_filament_g": 4.49,
+  "layers": 29,
+  "parts": [
+    "fixed-jaw",
+    "jaw-a",
+    "jaw-b",
+    "nose-a",
+    "nose-b"
+  ],
+  "extrusion_bounds_xy_mm": [
+    [
+      99.279,
+      99.136
+    ],
+    [
+      156.724,
+      156.867
+    ]
+  ],
+  "feature_segment_counts": {
+    "Brim": 1649,
+    "Outer wall": 17316,
+    "Inner wall": 26289,
+    "Gap infill": 6752,
+    "Bottom surface": 284,
+    "Internal solid infill": 8301,
+    "Sparse infill": 949,
+    "Top surface": 783,
+    "Floating vertical shell": 337,
+    "Bridge": 122
+  },
+  "gcode_md5_verified": true,
+  "source_sha256": {
+    "nose-a": "8cff7de8c6f3c6cfd161ff43902de57115ceaa744519095592d8e19b16b00998",
+    "nose-b": "2c7804a3ac512cfb2fdc9e1425e93dd5974f6d726fd67ceb138d26d6ad90e5f2",
+    "jaw-a": "7035d73f124ad1742a3dbe7bef94c8a5c1c32aea9e3c94ed452b3aefd6c68498",
+    "jaw-b": "a364d46d6290b04c00fb53cd0c2ca551be75bbe65fa51267d4c089371d73ba25",
+    "fixed-jaw": "561a07ce49de120f4434f846ee96839fe39fbf9d1dfa722d8e6a68b56eaf3bed"
+  },
+  "slicer_notices": [
+    "Traditional timelapse unsupported: leave timelapse off.",
+    "Headless native thumbnail generation unavailable; separate toolpath preview provided."
+  ],
+  "physical_validation": "Not yet printed or tested."
+}

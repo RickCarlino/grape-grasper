@@ -1,28 +1,98 @@
-# Grape Grasper v0.1
+# Precision Grasper v0.2
 
-[![Full precision grasper assembly with open jaws, finger loops, metal shaft, and linkage hardware](docs/images/assembly.png)](docs/images/assembly.png)
+[![Full grasper assembly with the revised slim head](docs/images/assembly.png)](docs/images/assembly.png)
 
-*Full CAD assembly with the jaws open. Teal and orange parts are 3D printed; the metal shaft and fasteners are purchased hardware.*
+A hand-operated grasper for dexterity practice: squeezing the finger loops pulls a wire through a metal tube and closes the jaw. Spreading the loops pushes the wire and opens it again. Each of the eight printed parts has its own preview color; the metal tube, rod, and fasteners are purchased hardware. The colors identify parts and do not require a multicolor print.
 
-A short, manually operated grasper for dexterity and precision-gripping experiments. Squeezing the finger loops pulls a wire through a metal tube and closes the upper jaw. Spreading the loops pushes the wire and opens it again. No motor, cable housing, tiny return spring, or electrical alligator clip is required.
+**Build status:** the v0.1 handle parts printed successfully in PLA, as reported by the builder. The original head was too bulky and its thin raised features printed poorly. **v0.2 replaces only the head with five parts designed to print flat without supports.** The new head has passed digital checks and has been sliced, but has not yet been physically printed or tested.
 
-**Status:** modeled and checked digitally; not yet printed or physically tested. This is a first bench prototype. The main uncertainties are print fit, wire-eye fabrication, joint friction, and how reliably the blunt tips grip small objects.
+Already printed the handle? Keep it. [Print just the replacement head](prints/fox-build-a1-head-v02/PRINT-GUIDE.md): approximately **34 minutes and 4.49 g of PLA** on a Bambu A1 with a 0.4 mm nozzle and textured PEI plate.
+
+## The head redesign
+
+[![Revised head with separate flat-printing tips and mounting hardware behind the gripping surface](docs/images/head-v02.png)](docs/images/head-v02.png)
+
+The old head placed narrow fingers above the bed and relied on supports. This version changes the parts themselves: each cheek has a continuous outer face on the bed, the lower contact tip is a separate flat insert, and the moving jaw splits into two flat halves with upward-facing wire pockets. The tip-mounting screws sit behind the contact surface. Assemble these flat pieces into the head after printing.
+
+| Detail | Original v0.1 | Revised v0.2 |
+| --- | --- | --- |
+| Closed printed head, excluding fastener protrusions | 45 × 21.5 × 12.4 mm | **43 × 18.34 × 9.4 mm** |
+| Printed head material volume | 5,856 mm³ | **3,543 mm³ — about 39.5% less** |
+| Head thickness | 12.4 mm | **9.4 mm — about 24% thinner** |
+| Head print arrangement | Three parts, raised tips requiring supports | **Five parts, all flat on the bed; supports off** |
+| Contact-tip width across the head | About 3 mm | **4 mm moving / 4.6 mm fixed** |
+| Handle, tube, and linkage | Original interface | **Unchanged handle; same 116 mm tube and 140 mm rod-eye spacing** |
+
+**Reinforcement refinement:** the triangular opening behind the linkage is now filled with a 2.4 mm thick web in each cheek. Together the webs add approximately **47 mm³** of material. The central rod passage and rounded linkage-fastener access remain clear through the modeled motion. This increases the section connecting the arms to the tube clamp; the strength improvement still needs a physical test.
+
+The contact tips are deliberately a little wider than v0.1 to give filament layers more section to carry load. The surrounding head is slimmer. For substantially smaller metal contact tips, see the [commercial clip option](#could-an-off-the-shelf-alligator-clip-work).
+
+[![Five replacement parts arranged flat for printing](docs/images/head-v02-layout.png)](head-layout.stl)
+
+Preview colors stay consistent between assembly, layout, and individual-part views:
+
+| Printed part | Preview color |
+| --- | --- |
+| Nose A | Blue |
+| Nose B | Teal |
+| Jaw A | Coral |
+| Jaw B | Yellow |
+| Fixed tip insert | Magenta |
+| Handle A | Navy |
+| Handle B | Lavender |
+| Trigger | Orange |
+
+Print **one each** of `nose-a.stl`, `nose-b.stl`, `jaw-a.stl`, `jaw-b.stl`, and `fixed-jaw.stl`, or use `head-layout.stl`. Do not print both the individual files and the layout. The new moving jaw uses two halves; the old one-piece `jaw.stl` is archived.
+
+[Detailed head assembly and print instructions](docs/HEAD-V02.md) · [Bambu Studio project](prints/fox-build-a1-head-v02/grape-grasper-head-v02-A1-PLA.3mf) · [Sliced G-code](prints/fox-build-a1-head-v02/grape-grasper-head-v02-A1-PLA.gcode)
+
+## Build log
+
+### First PLA print — September 5, 2026
+
+The handle parts printed well and feel solid. The gripper head needs another pass: it was too bulky, and its thin features failed to print cleanly.
+
+| On the printer | Original head close-up |
+| --- | --- |
+| [![Parts on the print bed, showing the head's failed thin features](docs/build-log/first-pla-print/on-the-printer.png)](docs/build-log/first-pla-print/on-the-printer.png) | [![Original small close-up of the head print failures](docs/build-log/first-pla-print/head-closeup.png)](docs/build-log/first-pla-print/head-closeup.png) |
+
+The replacement head is smaller and split into five parts that print flat. Reinforcing webs connect the side plates' arms to the tube clamp. The successful handle prints can be reused.
+
+Next up: print the new head, assemble it with the pushrod, and check that the jaws move freely and grip well.
+
+## Could an off-the-shelf alligator clip work?
+
+**Yes, with an adapter.** A useful candidate is the **Mueller BU-34 smooth-jaw micro clip**, or **BU-34X** in stainless steel. The manufacturer's [BU-34 series datasheet](https://www.muellerelectric.com/product_files/229/DS-BU-34.pdf) specifies approximately **27.8 × 5.1 × 7.9 mm**, with up to **5.6 mm jaw spread**. Smooth jaws make this a more relevant starting point than a coarse-toothed electrical clip, though grip on grape skin still needs testing.
+
+| Candidate | Material | Listed single-piece price, checked September 5, 2026 |
+| --- | --- | --- |
+| [Mueller BU-34 at DigiKey](https://www.digikey.com/en/products/detail/mueller-electric-co/BU-34/304581) | Nickel-plated steel | **$0.66**, before tax/shipping |
+| [Mueller BU-34X at DigiKey](https://www.digikey.com/en/products/detail/mueller-electric-co/BU-34X/4766487) | Stainless steel | **$1.17**, before tax/shipping |
+
+A proposed conversion would hold the clip's fixed shank in a printed cradle and put a sliding cam on the pushrod. Advancing the rod would press the clip's rear lever to open it; retracting the rod would release the lever and let the clip spring close. That preserves the current squeeze-to-close direction, but **grip force would come from the clip spring**, rather than direct control through our jaw linkage.
+
+This is an engineering concept, not a validated drop-in adapter. The catalog gives overall dimensions, not the tail/pivot geometry or spring force needed to finish a reliable mount and cam. Measure one sample's mounting shape, lever travel, and opening force, and verify that our **2.39 mm rod stroke** gives sufficient travel. Simply attaching the rod to the solder/crimp tail will not actuate the jaw. A rigid push/pull conversion with controllable closing force would need a separate crank and likely clip modification. The supplied v0.2 files implement the printed head; they do not claim compatibility with an unmeasured clip.
 
 ## What is included
 
-- `precision-grasper.js`: editable JSCAD source, with assembly, individual-part, and print-layout views. The opening slider moves the grip and jaw together.
-- Six individual STLs: `handle-a`, `handle-b`, `nose-a`, `nose-b`, `trigger`, and `jaw`. Print **one of each**. A and B are mirrored partners, not duplicates.
-- `layout.stl`: all six printed parts arranged separately, approximately **195 × 111 mm**, with their lowest points at Z=0. Center it on your slicer's bed; do not also print the individual files.
-- `mesh-checks.json` and `motion-checks.json`: digital verification results.
-- [Fox.Build A1 print package](prints/fox-build-a1/PRINT-GUIDE.md): sliced PLA project, microSD G-code, toolpath previews, and setup instructions.
-
-The grey tube and pins and gold pushrod in the assembly view are purchased hardware. They are excluded from the supplied STLs. Use the supplied STLs for the first print; their coincident triangle edges have been stitched and checked. Direct JSCAD re-exports may need the same mesh cleanup after edits.
+- `precision-grasper.js`: editable JSCAD source with full assembly, head close-up, head-only layout, full layout, and individual-part views.
+- **Unchanged handle STLs:** `handle-a`, `handle-b`, and `trigger`; existing successful prints can be reused.
+- **Five replacement head STLs:** `nose-a`, `nose-b`, `jaw-a`, `jaw-b`, and `fixed-jaw`.
+- `head-layout.stl`: just the replacement head, approximately **86.4 × 53.5 mm**.
+- `layout.stl`: all eight current parts, approximately **189 × 149.9 mm**.
+- `mesh-checks.json`, `motion-checks.json`, and `printability-checks.json`: digital validation results.
+- `prints/fox-build-a1-head-v02/`: the replacement-head PLA project, G-code, guide, and toolpath preview.
+- `archive/v0.1/`: the complete previous version, retained as a build record.
 
 <!-- STL-GALLERY:START -->
 <!-- Generated by scripts/render_stls.py; do not edit this section. -->
 ## STL previews
 
-Print one of each individual part, **or** the combined layout. Dimensions are the STL bounds; previews are individually scaled.
+For the replacement head, print nose-a, nose-b, jaw-a, jaw-b, and fixed-jaw once each, **or** head-layout. The full layout also includes the three unchanged handle parts. Dimensions are STL bounds; previews are individually scaled.
+
+### Fixed Jaw
+
+[![fixed-jaw STL preview](docs/images/fixed-jaw.png)](fixed-jaw.stl)
 
 ### Handle A
 
@@ -32,9 +102,17 @@ Print one of each individual part, **or** the combined layout. Dimensions are th
 
 [![handle-b STL preview](docs/images/handle-b.png)](handle-b.stl)
 
-### Jaw
+### Head Layout
 
-[![jaw STL preview](docs/images/jaw.png)](jaw.stl)
+[![head-layout STL preview](docs/images/head-layout.png)](head-layout.stl)
+
+### Jaw A
+
+[![jaw-a STL preview](docs/images/jaw-a.png)](jaw-a.stl)
+
+### Jaw B
+
+[![jaw-b STL preview](docs/images/jaw-b.png)](jaw-b.stl)
 
 ### Layout
 
@@ -50,7 +128,75 @@ Print one of each individual part, **or** the combined layout. Dimensions are th
 
 ### Trigger
 
-[![trigger STL preview](docs/images/trigger.png)](trigger.stl)
+[![trigger STL preview](docs/images/trigger.png)](docs/images/assembly.png)
+
+A hand-operated grasper for dexterity practice: squeezing the finger loops pulls a wire through a metal tube and closes the jaw. Spreading the loops pushes the wire and opens it again. Teal and orange components are printed; the metal tube, rod, and fasteners are purchased hardware.
+
+**Build status:** the v0.1 handle parts printed successfully in PLA, as reported by the builder. The original head was too bulky and its thin raised features printed poorly. **v0.2 replaces only the head with five parts designed to print flat without supports.** The new head has passed digital checks and has been sliced, but has not yet been physically printed or tested.
+
+Already printed the handle? Keep it. [Print just the replacement head](prints/fox-build-a1-head-v02/PRINT-GUIDE.md): approximately **34 minutes and 4.43 g of PLA** on a Bambu A1 with a 0.4 mm nozzle and textured PEI plate.
+
+## The head redesign
+
+[![Revised head with separate flat-printing tips and mounting hardware behind the gripping surface](docs/images/head-v02.png)](docs/images/head-v02.png)
+
+The old head placed narrow fingers above the bed and relied on supports. This version changes the parts themselves: each cheek has a continuous outer face on the bed, the lower contact tip is a separate flat insert, and the moving jaw splits into two flat halves with upward-facing wire pockets. The tip-mounting screws sit behind the contact surface. Assemble these flat pieces into the head after printing.
+
+Detail
+Original v0.1
+Revised v0.2
+￼￼
+Closed printed head, excluding fastener protrusions
+45 × 21.5 × 12.4 mm
+**43 × 18.34 × 9.4 mm**
+Printed head material volume
+5,856 mm³
+**3,496 mm³ — about 40% less**
+Head thickness
+12.4 mm
+**9.4 mm — about 24% thinner**
+Head print arrangement
+Three parts, raised tips requiring supports
+**Five parts, all flat on the bed; supports off**
+Contact-tip width across the head
+About 3 mm
+**4 mm moving / 4.6 mm fixed**
+Handle, tube, and linkage
+Orig](docs/images/assembly.png)
+
+A hand-operated grasper for dexterity practice: squeezing the finger loops pulls a wire through a metal tube and closes the jaw. Spreading the loops pushes the wire and opens it again. Teal and orange components are printed; the metal tube, rod, and fasteners are purchased hardware.
+
+**Build status:** the v0.1 handle parts printed successfully in PLA, as reported by the builder. The original head was too bulky and its thin raised features printed poorly. **v0.2 replaces only the head with five parts designed to print flat without supports.** The new head has passed digital checks and has been sliced, but has not yet been physically printed or tested.
+
+Already printed the handle? Keep it. [Print just the replacement head](prints/fox-build-a1-head-v02/PRINT-GUIDE.md): approximately **34 minutes and 4.43 g of PLA** on a Bambu A1 with a 0.4 mm nozzle and textured PEI plate.
+
+## The head redesign
+
+[![Revised head with separate flat-printing tips and mounting hardware behind the gripping surface](docs/images/head-v02.png)](docs/images/head-v02.png)
+
+The old head placed narrow fingers above the bed and relied on supports. This version changes the parts themselves: each cheek has a continuous outer face on the bed, the lower contact tip is a separate flat insert, and the moving jaw splits into two flat halves with upward-facing wire pockets. The tip-mounting screws sit behind the contact surface. Assemble these flat pieces into the head after printing.
+
+Detail
+Original v0.1
+Revised v0.2
+￼￼
+Closed printed head, excluding fastener protrusions
+45 × 21.5 × 12.4 mm
+**43 × 18.34 × 9.4 mm**
+Printed head material volume
+5,856 mm³
+**3,496 mm³ — about 40% less**
+Head thickness
+12.4 mm
+**9.4 mm — about 24% thinner**
+Head print arrangement
+Three parts, raised tips requiring supports
+**Five parts, all flat on the bed; supports off**
+Contact-tip width across the head
+About 3 mm
+**4 mm moving / 4.6 mm fixed**
+Handle, tube, and linkage
+Orig](trigger.stl)
 <!-- STL-GALLERY:END -->
 
 ## Parts to buy or find
@@ -60,7 +206,7 @@ Buy **one of each of the three products below**. Their full-pack subtotal was **
 Amazon links below are affiliate links. As an Amazon Associate I earn from qualifying purchases.
 
 | Product to buy | Specification and use | Pack price |
-|---|---|---:|
+| --- | --- | ---: |
 | [K&S 8106 round aluminum tube — 1 tube](https://www.amazon.com/dp/B00FZS20P0?tag=rickcarlino-20) | **1/4 inch (6.35 mm) OD × 0.014 inch wall × 12 inches long**. Calculated nominal ID is **5.64 mm**, above the required 4.8 mm. Cut one **116 mm** piece and deburr it. This is the lower-cost aluminum option for the metal shaft. | **$6.19** |
 | [K&S 5497 music wire — 4 lengths](https://www.amazon.com/dp/B002WXPNA0?smid=A2E137HZ093DQ5&psc=1&tag=rickcarlino-20) | Select **0.039 inch OD × 12 inches long**, approximately **0.99 mm diameter**. Use about **180 mm** before forming the eyes. This is carbon spring steel for the dry internal linkage, not the contact tips. The quoted offer is from **Hobbylinc**. | **$6.29** |
 | [HanTof 900-piece hex socket head cap screw, nut, and washer assortment](https://www.amazon.com/dp/B0FF4RH81S?tag=rickcarlino-20) | Select **900-Pieces Set**, with M2, M2.5, and M3 hardware and black Grade 12.9 alloy-steel cap screws. The listed contents include **25 × M3 × 20 mm**, **25 × M2 × 12 mm**, **100 nuts and 100 flat washers of each size**, plus hex keys. One kit covers all the fasteners below. | **$8.19** |
@@ -68,23 +214,24 @@ Amazon links below are affiliate links. As an Amazon Associate I earn from quali
 
 **Shipping:** The selected Hobbylinc wire offer included free shipping, with an estimated arrival of September 22, 2026. The tube and hardware kit were shipped by Amazon, with free shipping offered through Prime or on qualifying Amazon-shipped orders over $35. Their combined eligible subtotal here is only **$14.38**, so free shipping for those two items is not assumed in the price above. Confirm delivery dates and charges at checkout.
 concord grape
+
 ### Fasteners used from the kit
 
 | Component | Needed for one grasper | Included in the selected kit |
-|---|---|---|
+| --- | --- | --- |
 | M3 × 20 mm machine screws | **8**: two pivots, one travel-stop pin, four tube-socket screws, one fixed-grip screw | 25 |
 | M3 nuts | **8** | 100 ordinary hex nuts; Nyloc nuts are not included |
 | M3 thin flat washers | Approximately **16** | 100 |
-| M2 × 12 mm linkage screws | **2**, through the bent wire eyes and small forked cranks | 25 |
-| M2 nuts | **2** | 100 |
-| M2 thin flat washers | Approximately **4** | 100 |
+| M2 × 12 mm linkage screws | **4**: two linkage screws and two fixed-tip mounting screws | 25 |
+| M2 nuts | **4** | 100 |
+| M2 thin flat washers | Approximately **8** | 100 |
 
-Use M2 screw heads and nuts under **6 mm across**. Keep the pivots and linkage joints free to move; do not tighten them until they bind. Nyloc nuts remain an optional alternative for retaining the lightly tightened M3 pivot and stop screws and are not part of this budget cart.
+Use M2 screw heads and nuts under **6 mm across**, and washers no more than **5 mm OD** on the two new fixed-tip screws. M2 × 12 mm fits the 9.4 mm head stack with thin washers and a standard thin nut; verify full nut engagement and use longer M2 screws if your washers/nuts require it. Keep the pivots and linkage joints free to move; do not tighten them until they bind. Nyloc nuts remain an optional alternative for retaining the lightly tightened M3 pivot and stop screws and are not part of this budget cart.[![
 
 ### Supplies excluded from the shopping subtotal
 
 - **Socket shims:** a little thin tape or paper. The tube bores are 6.65 mm for print clearance; use shims until the sockets grip the tube without crushing the plastic. These are still needed for assembly even when already on hand.
-- **Filament:** allow **30–40 g** including supports. PLA for the first fit test; PETG is an alternative after fit is established.
+- **Filament:** allow **30–40 g** including supports. PLA remains the baseline. The replacement head alone is estimated at **4.49 g**, including brims. PETG is an alternative after fit is established.
 
 A 6 mm tube can be used by changing `P.tubeOD` and regenerating the housing meshes; do not scale every part to fit it. The selected 6.35 mm OD tube matches the supplied design without that change.
 
@@ -92,65 +239,41 @@ Tools: small saw or tubing cutter, file/deburring tool, ruler or calipers, two p
 
 ## Print setup
 
-### Prepared plate for Fox.Build
+Use the [v0.2 head-only print package](prints/fox-build-a1-head-v02/PRINT-GUIDE.md) for this iteration. It is sliced for **Bambu A1, 0.4 mm nozzle, PLA, textured PEI, 0.16 mm layers, four walls, 50% gyroid infill, and 2 mm brims**, with **supports disabled**. Check the printer's nozzle, plate, and filament before using the G-code; select the actual hardware/material and reslice if different.
 
-The six individual parts are already sliced together for a **Bambu A1, 0.4 mm nozzle, ordinary PLA, and textured PEI plate**. Estimated print: **1 hour 59 minutes and 27.04 g of PLA**, including supports and brims. Settings: 0.16 mm layers, four walls, 50% gyroid infill, tree supports from the bed, and 3 mm brims. Toolpaths have been checked; physical fit still needs the first print.
+Every new head part is supplied with its broad continuous face at Z=0. Keep this orientation: the shallow wire pockets and half-round tube seats face upward. Clear brims and any elephant foot from the mating faces. The new jaw is **4.0 mm thick inside a 4.6 mm fork**, with nominal **0.3 mm clearance on each side**. The split crank has a **1.5 mm central wire slot**. Clean the nominal **3.25 mm M3 holes** and **2.25 mm M2 holes** gently by hand until the fasteners slide through.
 
-- [Open the Bambu Studio project](prints/fox-build-a1/grape-grasper-A1-PLA.3mf) as a project to retain all six parts and the saved settings.
-- [Download the sliced G-code](prints/fox-build-a1/grape-grasper-A1-PLA.gcode) for microSD printing with the matching setup.
-- [Read the makerspace print guide](prints/fox-build-a1/PRINT-GUIDE.md) for setup, support removal, and fit checks.
-
-Confirm the actual nozzle, plate, and loaded material at Fox.Build. If they differ, update those settings in the project and slice again. After CAD or STL changes, regenerate the slice before printing.
-
-[![Bambu A1 first-layer and all-layer toolpaths](prints/fox-build-a1/toolpath-preview.png)](prints/fox-build-a1/toolpath-preview.png)
-
-[Detailed support preview](prints/fox-build-a1/support-details.png) · [Slice checks and source hashes](prints/fox-build-a1/slice-checks.json)
-
-### General print and fit guidance
-
-Start with a **0.4 mm nozzle, 0.16–0.20 mm layers, four perimeters, and 40–60% infill**. These are proposed starting settings, not tested printer profiles. Use solid local infill around the jaw and pivot holes if available.
-
-The files are oriented with broad faces toward the bed. The narrow jaw tip and the lower fingers on both nose halves have overhangs: **add local supports under these areas**. Inspect the slicer preview around the 1.5 mm wire slots; keep them open and remove any support or stringing afterward. This is not a support-free design.
-
-The fixed grip opening is 19 mm diameter and the moving loop is 18 mm. Check those against your fingers before printing everything. Deburr the finger loops. Clean the nominal 3.25 mm pivot holes and 2.25 mm linkage holes until the screws slide freely. The moving parts are 6 mm thick inside a 6.4 mm fork, providing 0.2 mm nominal clearance per side. Light sanding may be required.
+The unchanged handle parts have already printed successfully for the builder. Retain those prints. The old six-part A1 package includes the rejected head geometry and is superseded for this build.
 
 ## Assembly
 
-1. **Prepare the tube.** Cut it to 116 mm and deburr both inside and outside edges so they cannot scrape the wire.
-2. **Form the pushrod.** Make a small eye in each end of the 1 mm wire, approximately 2.3 mm inside diameter and 4.3 mm outside diameter. Both eyes lie in the same plane and below the straight wire: the straight section meets the top of each eye. Set their centres **140 mm apart**. Thread the tube onto the wire before forming the second eye. Leave no loose sharp tail; discard any wire that cracks during bending.
-3. **Attach the moving pieces.** Place one eye in the trigger's 1.5 mm central fork slot, and the other in the moving jaw's slot. Install the M2 screws through the 2.25 mm holes. Tighten the nuts enough to retain the joints while letting the eyes swivel freely; squeezing the fork cheeks onto the wire will jam it.
-4. **Assemble the nose.** Put the moving jaw between Nose A and Nose B. The narrow upper tip faces the stationary lower tip. Install its M3 pivot. The large window below the pivot gives access to the M2 linkage screw. Fit the two nose socket screws loosely.
-5. **Assemble the handle.** Sandwich the trigger between Handle A and Handle B. Install the M3 pivot, the second M3 screw through the curved travel-stop slot above it, the fixed-grip screw, and the two socket screws. Pivot and stop nuts should retain the parts without pinching the trigger.
-6. **Align the tube and housings.** With both mechanisms closed, set the main pivot centres 140 mm apart. Each tube end is then 12 mm toward the shaft from its corresponding pivot. The tube sits approximately 17 mm into the handle socket and 15 mm into the nose socket, leaving about 84 mm exposed between housings. Keep the grip and jaw in the same plane.
-7. **Secure the tube.** Add thin shims at the two sockets until the tube cannot rotate or slide under light hand force. Snug the four socket screws. The housings have clearance bores, not interference-fit clamps; the shims are part of this prototype's retention method.
-8. **Set the jaw contact.** Close gently. Both tips should meet before any serious load develops. If they do not, adjust the eye spacing or housing position slightly and re-secure the tube. Do not use finger force to compensate for a badly adjusted rod.
-9. **Cycle before gripping.** Open and close slowly at least 20 times. Confirm the wire does not bow, catch at a socket, or scrape a screw. Test gripping a thin paper strip, then practice picking up and placing small lightweight objects. Apply gentle pressure and check that the tips hold securely without damaging the object.
+1. **Keep the existing handle.** The two handle shells and trigger geometry have not changed. For a fresh build, sandwich the trigger between the shells with its M3 pivot, stop pin, fixed-grip screw, and two socket screws. The finger openings remain 19 mm fixed and 18 mm moving.
+2. **Prepare the tube and pushrod.** Use the original **6.35 mm OD × 116 mm tube**. Form approximately **2.3 mm ID / 4.3 mm OD eyes** in the 1 mm wire, with their centers **140 mm apart**, in one plane. Thread the tube on before forming the second eye. The straight wire meets the tops of the eyes. Deburr the tube and discard wire that cracks while bending.
+3. **Build the split moving jaw.** Face the shallow pockets in Jaw A and Jaw B toward each other, forming the 1.5 mm central slot. Put the rod eye between them and pass an M2 linkage screw through both halves and the eye. Retain the nut loosely enough that the eye can swivel. Both jaw halves also share the M3 pivot hole, which aligns them during final assembly.
+4. **Install the fixed tip.** Sandwich `fixed-jaw` between Nose A and Nose B with its flat gripping face toward the moving jaw. Its two staggered holes line up with the two small holes in each cheek's lower arm. Secure with **two M2 × 12 mm screws, two nuts, and four thin washers**, using washers no more than 5 mm OD. Check full nut engagement; use longer M2 screws if the actual washer/nut stack needs them. The insert establishes the 4.6 mm cheek spacing at the front.
+5. **Install the moving jaw and tube.** Put the split jaw between the cheeks and install its original M3 × 20 mm pivot with washers and nut. Fit the tube into the rear half-round seats and loosely install the two M3 socket screws. Leave the jaw and wire eye free to move; do not clamp them until they bind.
+6. **Set alignment.** With the jaws closed, place the handle and head main pivot centers **140 mm apart** in the same plane. Each tube end is 12 mm toward the shaft from its corresponding pivot. The revised head seat spans approximately 13 mm of the tube; the handle seat remains approximately 17 mm. The tube itself does not need recutting.
+7. **Secure and cycle.** Use thin shims in the 6.65 mm socket bores as needed to retain the tube without crushing the plastic. Close gently and check that the contact faces meet. Cycle slowly at least 20 times, checking rod alignment, freely moving joints, and tip alignment. Begin with a paper strip or small lightweight object. This step is the pending physical validation of v0.2.
 
-The stock eye length is set by bending, not by a threaded adjuster. A threaded RC linkage can be added in a later revision if repeated fine adjustment is needed.
+## Motion and checks
 
-## Motion and fit
+The original **7 mm cranks**, **140 mm pivot spacing**, and **140 mm eye spacing** remain a parallelogram linkage. At 20 degrees, calculated rod travel is **2.39 mm**, the opening at the 16 mm tip station is **5.65 mm**, and finger-loop motion is approximately **17.1 mm**.
 
-The two cranks have the same 7 mm radius. With the pivots and rod-eye centres both spaced 140 mm apart, the linkage is a parallelogram: the trigger and jaw rotate together.
+The updated checks found no modeled intersections between frame and moving parts, rod and printed parts, tube and printed parts, or a 6 mm diameter head-link fastener envelope and the frame at each whole degree from 0 through 20. The five individual head meshes are single watertight solids. Both layouts are collision-free. In their supplied print orientations, the new head meshes have flat bed faces and no raised horizontal undersides. The sliced plate contains all five parts and no support extrusion; minor internal bridge paths over infill are separate from the unsupported fingers in v0.1.
 
-At 20 degrees, the calculated wire travel is **2.39 mm**, the opening at the 16 mm tip station is **5.65 mm**, and the finger-loop centre moves about **17.1 mm** sideways. The tip contact width is approximately 3 mm. The grip's curved slot limits nominal rotation to 0–20 degrees; fastener clearance adds a little play. This mechanism multiplies hand force, so squeeze lightly.
-
-Digital checks found zero modeled intersections between the moving parts and frames, or between the rod/tube and printed parts, at each whole degree from 0 through 20. The six parts do not overlap in the print layout. Every supplied individual STL is one watertight, consistently wound solid; the layout contains six. Small coincident-edge corrections during export changed part volumes by less than 0.003 mm³ each. These checks do not establish strength, wear, tolerances on your printer, or physical gripping performance. Screw heads, washers, nuts, and the bent-wire cross section are simplified in the assembly display.
+These checks do not establish strength, wear, actual printer clearances, or gripping performance. The handle print success is builder feedback, not a full mechanism test. Hardware in the assembly view is simplified; the next physical fit test remains necessary.
 
 ## Contact surfaces and cleaning
 
-Use the first print for fit checks and gripping practice with paper strips or small lightweight objects. Inspect the contact surfaces for rough edges and trapped debris before each session. Removable metal or silicone tips could be explored in a later revision; alternative tip materials and attachments have not been validated in v0.1.
-
-After a practice session, remove the nose screws and jaw, clean out residue, and dry all parts and the internal wire. Replace cracked or rough tips rather than sharpening them into teeth. The removable nose is intended to make tip experiments inexpensive.
+Use the next print for fit checks and gentle gripping practice. Remove rough edges and trapped debris, and clean and dry the removable tip and linkage after use. Replace cracked tips. The replaceable flat fixed insert makes later tip experiments inexpensive.
 
 ## Rebuild the screenshots
 
-The individual-part and layout PNG previews are rendered directly from the supplied STL meshes with orthographic projection, directional lighting, and consistent part colors. The image at the top uses the full JSCAD assembly, including the purchased hardware. The commands below rebuild the STL gallery. Python 3.10+ and Make are required; rendering is headless and needs no browser, GPU, or CAD application.
+The gallery previews use the supplied current STL meshes; the assembly views use the JSCAD model. The following commands regenerate the STL gallery only, leaving the assembly images and build photos intact. Python 3.10+ and Make are required; no browser or GPU is needed.
 
 ```sh
 make setup
 make screenshots PYTHON=.venv/bin/python
 ```
 
-The default `make` target also builds screenshots. If NumPy and Pillow are already installed, run `make` directly. Use `make screenshots-force PYTHON=.venv/bin/python` to regenerate every STL preview.
-
-The build discovers all `.stl` files recursively (case insensitive, excluding hidden directories), writes previews to `docs/images/`, and refreshes the gallery in this README. Unchanged meshes reuse their images; changes to the renderer rebuild all previews. Keep the generated PNGs with the README so the guide works without running the build. Edit instructions outside the `STL-GALLERY` markers; content inside them is generated. This target renders the existing STLs; it does not regenerate meshes from JSCAD.
+Use `make screenshots-force PYTHON=.venv/bin/python` to force an STL-preview rebuild. The renderer discovers only current STLs in the project root, so archived failed parts do not reappear in the current gallery. Content inside `STL-GALLERY` markers is generated. This command does not regenerate STL geometry from JSCAD.

@@ -1,0 +1,32 @@
+{
+  "nose-a": {
+    "raised_downward_face_area_mm2": 0.0,
+    "min_z_mm": 0.0,
+    "watertight": true,
+    "bodies": 1
+  },
+  "nose-b": {
+    "raised_downward_face_area_mm2": 0.0,
+    "min_z_mm": 0.0,
+    "watertight": true,
+    "bodies": 1
+  },
+  "jaw-a": {
+    "raised_downward_face_area_mm2": 0.0,
+    "min_z_mm": 0.0,
+    "watertight": true,
+    "bodies": 1
+  },
+  "jaw-b": {
+    "raised_downward_face_area_mm2": 0.0,
+    "min_z_mm": 0.0,
+    "watertight": true,
+    "bodies": 1
+  },
+  "fixed-jaw": {
+    "raised_downward_face_area_mm2": 0.0,
+    "min_z_mm": 0.0,
+    "watertight": true,
+    "bodies": 1
+  }
+}

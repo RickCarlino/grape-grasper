@@ -1,5 +1,3 @@
-> **Superseded v0.1 head:** the first PLA print showed head failures. Use the [v0.2 head-only package](../fox-build-a1-head-v02/PRINT-GUIDE.md) for the replacement. The handle geometry is unchanged.
-
 # Grape grasper — Fox.Build Bambu A1 print package
 
 Prepared September 5, 2026 with Bambu Studio 2.8.2.61.
@@ -39,7 +37,7 @@ The supplied G-code has already been sliced for the stated setup. Opening the 3M
 
 Let the plate cool, remove the parts, and carefully remove the brims and support trees. Hold each thin tip close to the support while separating it so you do not bend the tip. Inspect the nose fingers, jaw tip, and crank/trigger details for remaining support.
 
-Clear the **1.5 mm wire slots**. Check the **3.25 mm pivot holes** and **2.25 mm link holes**; clean or ream them gently by hand if needed. Fit the 6 mm moving parts in the nominal 6.4 mm forks and confirm free movement before tightening pivot hardware. Follow the [assembly instructions in the project README](../../archive/v0.1/README.md#assembly).
+Clear the **1.5 mm wire slots**. Check the **3.25 mm pivot holes** and **2.25 mm link holes**; clean or ream them gently by hand if needed. Fit the 6 mm moving parts in the nominal 6.4 mm forks and confirm free movement before tightening pivot hardware. Follow the [assembly instructions in the project README](../../README.md#assembly).
 
 ## Files and checks
 

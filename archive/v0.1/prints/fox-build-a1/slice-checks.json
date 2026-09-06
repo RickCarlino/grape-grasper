@@ -1,0 +1,66 @@
+{
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1",
+  "printer_model_id": "N2S",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "bed": "Textured PEI Plate",
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.2,
+  "wall_loops": 4,
+  "infill": "50% gyroid",
+  "support": "Tree/organic automatic, build plate only",
+  "brim": "3 mm outside only",
+  "estimated_seconds": 7119,
+  "estimated_filament_g": 27.04,
+  "layers": 39,
+  "parts": [
+    "handle-a",
+    "handle-b",
+    "jaw",
+    "nose-a",
+    "nose-b",
+    "trigger"
+  ],
+  "extrusion_bounds_xy_mm": [
+    [
+      32.877,
+      51.049
+    ],
+    [
+      223.755,
+      204.14
+    ]
+  ],
+  "feature_segment_counts": {
+    "Support": 21145,
+    "Brim": 4303,
+    "Outer wall": 48388,
+    "Inner wall": 111293,
+    "Gap infill": 20797,
+    "Bottom surface": 1183,
+    "Internal solid infill": 21158,
+    "Support interface": 1274,
+    "Sparse infill": 92443,
+    "Floating vertical shell": 4852,
+    "Bridge": 2191,
+    "Overhang wall": 758,
+    "Top surface": 1645
+  },
+  "gcode_md5_verified": true,
+  "model_dimensions_unchanged": true,
+  "source_sha256": {
+    "handle-a": "5ea7c70f99c157bc7b010b7cc35ad9507ec8f489d0ac28a46ad61635d38f9941",
+    "handle-b": "82c7ada6b44ac7017c1d97e2ec5d2c64923d1832ac562721f9c2e37ab632a57d",
+    "trigger": "c98627a76bef685154618ee75171f2e8c485a036ffd605bde765316c0b8b9b82",
+    "nose-b": "0d9e712c136dc0f24d5835ccf83242feebcb7b752e2f81dae312a7c49ed5a231",
+    "nose-a": "7dad58def53fe8d2b8011edf582854a82e7a47f25d0ece592d446f57de14f7ab",
+    "jaw": "0de316ddffd4d0df174c3e900f7cf71f1a8b55b7bb2aa38367badff10a6dd6d0"
+  },
+  "slicer_notices": [
+    "Traditional timelapse unsupported: leave timelapse off.",
+    "Headless native thumbnail generation unavailable; separate toolpath preview provided."
+  ],
+  "physical_validation": "Not yet printed or tested.",
+  "geometry_verification": "All six triangle meshes match the original STLs after recentering; vertex rounding below 0.00001 mm. Plate placement uses rigid transforms."
+}
