@@ -1,32 +1,64 @@
 {
-  "nose-a": {
-    "raised_downward_face_area_mm2": 0.0,
-    "min_z_mm": 0.0,
-    "watertight": true,
-    "bodies": 1
+  "status": "PASS",
+  "method": "Cross-section components sampled at layer midplanes: 0.20 mm first layer, then 0.16 mm. Every component above the first layer must overlap material in the preceding sample.",
+  "limitations": "Detects floating islands, not local overhang quality, bridge sagging, bed adhesion, or hardware tolerances. The wire passage and nut pocket require short bridges.",
+  "parts": {
+    "fixed-grip": {
+      "sampled_layers": 62,
+      "first_layer_area_mm2": 1758.0035065370291,
+      "max_layer_components": 4,
+      "floating_islands": [],
+      "source_sha256": "70b8f53a7a7140133f9c3f2ef4c3391784854b4515556a4e2aed8c0c01fc04b5"
+    },
+    "squeeze-lever": {
+      "sampled_layers": 62,
+      "first_layer_area_mm2": 724.2415774822235,
+      "max_layer_components": 2,
+      "floating_islands": [],
+      "source_sha256": "e6afe88c2a5e9fee2a3acd0d8c46dcd9d89c1380c5d3090a1592994338b04967"
+    },
+    "tube-cap": {
+      "sampled_layers": 46,
+      "first_layer_area_mm2": 361.4766109958279,
+      "max_layer_components": 2,
+      "floating_islands": [],
+      "source_sha256": "73225886786c2944bf5ca6c20395dcb08ada5c0b2e314619bd423ec7617952ee"
+    },
+    "nose-a": {
+      "sampled_layers": 29,
+      "first_layer_area_mm2": 464.7349425170419,
+      "max_layer_components": 2,
+      "floating_islands": [],
+      "source_sha256": "8cff7de8c6f3c6cfd161ff43902de57115ceaa744519095592d8e19b16b00998"
+    },
+    "nose-b": {
+      "sampled_layers": 29,
+      "first_layer_area_mm2": 464.73494252464883,
+      "max_layer_components": 2,
+      "floating_islands": [],
+      "source_sha256": "2c7804a3ac512cfb2fdc9e1425e93dd5974f6d726fd67ceb138d26d6ad90e5f2"
+    },
+    "jaw-a": {
+      "sampled_layers": 12,
+      "first_layer_area_mm2": 116.72073554325786,
+      "max_layer_components": 1,
+      "floating_islands": [],
+      "source_sha256": "7035d73f124ad1742a3dbe7bef94c8a5c1c32aea9e3c94ed452b3aefd6c68498"
+    },
+    "jaw-b": {
+      "sampled_layers": 12,
+      "first_layer_area_mm2": 116.72072595668791,
+      "max_layer_components": 1,
+      "floating_islands": [],
+      "source_sha256": "a364d46d6290b04c00fb53cd0c2ca551be75bbe65fa51267d4c089371d73ba25"
+    },
+    "fixed-jaw": {
+      "sampled_layers": 28,
+      "first_layer_area_mm2": 69.5862236311523,
+      "max_layer_components": 1,
+      "floating_islands": [],
+      "source_sha256": "561a07ce49de120f4434f846ee96839fe39fbf9d1dfa722d8e6a68b56eaf3bed"
+    }
   },
-  "nose-b": {
-    "raised_downward_face_area_mm2": 0.0,
-    "min_z_mm": 0.0,
-    "watertight": true,
-    "bodies": 1
-  },
-  "jaw-a": {
-    "raised_downward_face_area_mm2": 0.0,
-    "min_z_mm": 0.0,
-    "watertight": true,
-    "bodies": 1
-  },
-  "jaw-b": {
-    "raised_downward_face_area_mm2": 0.0,
-    "min_z_mm": 0.0,
-    "watertight": true,
-    "bodies": 1
-  },
-  "fixed-jaw": {
-    "raised_downward_face_area_mm2": 0.0,
-    "min_z_mm": 0.0,
-    "watertight": true,
-    "bodies": 1
-  }
+  "failures": []
 }

@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1",
+  "printer_model_id": "N2S",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "bed": "Textured PEI Plate",
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.2,
+  "wall_loops": 5,
+  "infill": "60% gyroid",
+  "support": "Disabled; short internal bridges remain",
+  "brim": "2 mm outside only",
+  "estimated_seconds": 5563,
+  "estimated_filament_g": 19.12,
+  "layers": 62,
+  "parts": [
+    "fixed-grip",
+    "squeeze-lever",
+    "tube-cap"
+  ],
+  "first_layer_parts": [
+    "fixed-grip",
+    "squeeze-lever",
+    "tube-cap"
+  ],
+  "extrusion_bounds_xy_mm": [
+    [
+      64.524,
+      83.471
+    ],
+    [
+      191.477,
+      172.533
+    ]
+  ],
+  "feature_segment_counts": {
+    "Brim": 1155,
+    "Outer wall": 24972,
+    "Inner wall": 79894,
+    "Gap infill": 10313,
+    "Bottom surface": 735,
+    "Internal solid infill": 12297,
+    "Sparse infill": 68494,
+    "Floating vertical shell": 1862,
+    "Top surface": 910,
+    "Overhang wall": 174,
+    "Bridge": 1005
+  },
+  "embedded_meshes": {
+    "fixed-grip": {
+      "triangles": 2060,
+      "watertight": true,
+      "max_vertex_deviation_mm": 2.0964897331882417e-06,
+      "volume_delta_mm3": -0.00037761939347547013,
+      "slicer_repairs": 0
+    },
+    "squeeze-lever": {
+      "triangles": 3838,
+      "watertight": true,
+      "max_vertex_deviation_mm": 1.937340442736054e-06,
+      "volume_delta_mm3": 1.4847342754364945e-05,
+      "slicer_repairs": 0
+    },
+    "tube-cap": {
+      "triangles": 936,
+      "watertight": true,
+      "max_vertex_deviation_mm": 3.606699805288492e-07,
+      "volume_delta_mm3": 2.1448781808430795e-06,
+      "slicer_repairs": 0
+    }
+  },
+  "bed_mesh_bounds_mm": {
+    "fixed-grip": [
+      [
+        66.22294046018413,
+        111.11468127071868,
+        0.0
+      ],
+      [
+        189.73869088927677,
+        170.83315339949053,
+        10.0
+      ]
+    ],
+    "squeeze-lever": [
+      [
+        105.95847213797367,
+        85.16642708066094,
+        0.0
+      ],
+      [
+        189.77746374044597,
+        109.11469226059828,
+        10.0
+      ]
+    ],
+    "tube-cap": [
+      [
+        167.519,
+        152.83356,
+        0.0
+      ],
+      [
+        188.519,
+        170.83356,
+        7.4000001
+      ]
+    ]
+  },
+  "gcode_md5_verified": true,
+  "source_sha256": {
+    "fixed-grip": "70b8f53a7a7140133f9c3f2ef4c3391784854b4515556a4e2aed8c0c01fc04b5",
+    "squeeze-lever": "e6afe88c2a5e9fee2a3acd0d8c46dcd9d89c1380c5d3090a1592994338b04967",
+    "tube-cap": "73225886786c2944bf5ca6c20395dcb08ada5c0b2e314619bd423ec7617952ee"
+  },
+  "project_sha256": "3a8d1bb73ff014011bf76188c5005acf602aa1cd112182e978181589d99db912",
+  "slicer_notices": [
+    "No native thumbnail from the headless slicer; open the project and reslice in Bambu Studio to generate its preview.",
+    "Leave timelapse off."
+  ],
+  "physical_validation": "Handle not yet printed; head printed and assembled by the builder. Digital checks do not establish hardware fit, grip, fatigue, or stop strength."
+}

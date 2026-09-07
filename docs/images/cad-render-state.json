@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "scripts/render_assembly.py": "e75868c51669f23dcc0a5c251ad60ca16b70fe2431368c72338ee4a620948776",
+    "scripts/export_views.cjs": "5d235b256ffdc1fc5e47f78685c8703c15e2e76e1f2ff485bff2ffa8da8ff51e",
+    "package-lock.json": "58bac08d9bcc52d052911218fa6c8864b2ccd567a1b8e68413d33b6bfe288c7e",
+    "precision-grasper.js": "1236aef43a82f122f8207ad9104798c6ef455b1dd8665a973cecd04e4df6b1a0"
+  },
+  "images": {
+    "docs/images/assembly.png": "fdb22c0de064408fbbdb08a370b122607c7262b079f7a47e220bd4de37c3c6fe",
+    "docs/images/handle.png": "ef48577b07d5f8b341dd618fb9219068ae2c39b0740944fb59441b46aa6dab74",
+    "docs/images/clamp.png": "eec812bec5599ecba1281738ae699a32e2abdb1df6e106e047f1b1a39267d7a4",
+    "docs/images/head-v02.png": "ab30efdc21bbb6e6abd578f28d65b5dc7a28c9ea8cd45aa230f4be7496b24946",
+    "docs/images/head-v02-layout.png": "061590fd3db86bb7358d5cf4ce037c8e595a9727b54621104e92469cc2e96b92"
+  }
+}

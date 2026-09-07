@@ -1,0 +1,257 @@
+{
+  "status": "PASS",
+  "motion": [
+    {
+      "angle": 0,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 1,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 2,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 3,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 4,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 5,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 6,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 7,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 8,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 9,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 10,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 11,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 12,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 13,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 14,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 15,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 16,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 17,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 18,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 19,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    },
+    {
+      "angle": 20,
+      "trigger_frame": 0,
+      "carrier_frame": 0,
+      "carrier_trigger": 0,
+      "rod_printed": 0,
+      "hardware_frame": 0,
+      "hardware_trigger": 0,
+      "hardware_carrier": 0,
+      "tube_carrier": 0
+    }
+  ],
+  "failures": [],
+  "layout": [],
+  "headUnchanged": [
+    {
+      "name": "noseHalf",
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "name": "jawHalf",
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "name": "fixedJaw",
+      "added": 0,
+      "removed": 0
+    }
+  ],
+  "rodStroke": 2.394141003279681,
+  "sourceSHA256": "fd3cde2fa24be2bce22ecd664a636bce2fd2c0e07a077046e669cb0de08f6830"
+}

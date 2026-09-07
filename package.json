@@ -1,0 +1,9 @@
+{
+  "name": "grape-grasper-preview-tools",
+  "private": true,
+  "version": "0.2.1",
+  "description": "Render the current JSCAD views for the repository documentation",
+  "devDependencies": {
+    "@jscad/modeling": "2.13.0"
+  }
+}

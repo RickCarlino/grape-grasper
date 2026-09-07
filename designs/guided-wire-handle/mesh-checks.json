@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "source_sha256": "4352bbf5f5c0338f0862653c76e7a37c133551c1cb12e4ec14b2ad47573d75e8",
+  "method": "Shared JSCAD section recipes extruded and booleaned in Manifold on a 0.001 mm grid; no ad hoc mesh repair. Layer midplane checks at 0.20 / 0.16 mm.",
+  "limitations": "No floating islands does not prove bridge quality, fit, friction, or grip.",
+  "parts": {
+    "frame": {
+      "watertight": true,
+      "bodies": 1,
+      "triangles": 2600,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          81.69999694824219,
+          86.5,
+          13.0
+        ]
+      ],
+      "volume_mm3": 15977.542016821268,
+      "CAD_volume_delta_mm3": 0.5340023394201125,
+      "floating_islands": [],
+      "sampled_layers": 81,
+      "STL_sha256": "5b929c2f94f2cd643580a8bdf085a6c5b47e112c92af4637d2aec4ffdeeec08d"
+    },
+    "lever": {
+      "watertight": true,
+      "bodies": 1,
+      "triangles": 2594,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          24.0,
+          84.0,
+          7.300000190734863
+        ]
+      ],
+      "volume_mm3": 3879.057486352045,
+      "CAD_volume_delta_mm3": 0.1275372021309522,
+      "floating_islands": [],
+      "sampled_layers": 45,
+      "STL_sha256": "6ff8127b122b22b55a7414015e17e1fd46dd1e23b94697a4164f69eb276d43bd"
+    },
+    "carriage": {
+      "watertight": true,
+      "bodies": 1,
+      "triangles": 1064,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          31.600000381469727,
+          10.0,
+          7.5
+        ]
+      ],
+      "volume_mm3": 1319.5477651799818,
+      "CAD_volume_delta_mm3": 0.011706844270747752,
+      "floating_islands": [],
+      "sampled_layers": 47,
+      "STL_sha256": "470e84f85d7784bd289264b3bec3baa3016295b2c9e799846ddcbbedc12ca212"
+    },
+    "cover": {
+      "watertight": true,
+      "bodies": 1,
+      "triangles": 1248,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          58.20000076293945,
+          23.0,
+          6.449999809265137
+        ]
+      ],
+      "volume_mm3": 3993.067816501518,
+      "CAD_volume_delta_mm3": 0.05129397149039505,
+      "floating_islands": [],
+      "sampled_layers": 40,
+      "STL_sha256": "9c2537984b103e172f2c68eff84474d91e73edd2ffaa8c276ae82a4b01060ed0"
+    }
+  }
+}

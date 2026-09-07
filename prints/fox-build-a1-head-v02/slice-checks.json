@@ -1,4 +1,5 @@
 {
+  "status": "PASS",
   "slicer": "Bambu Studio 02.08.02.61",
   "printer": "Bambu Lab A1",
   "printer_model_id": "N2S",
@@ -9,12 +10,19 @@
   "first_layer_height_mm": 0.2,
   "wall_loops": 4,
   "infill": "50% gyroid",
-  "support": "Disabled; every head part has a full flat bed face",
+  "support": "Disabled; short internal bridges remain",
   "brim": "2 mm outside only",
-  "estimated_seconds": 2012,
+  "estimated_seconds": 2013,
   "estimated_filament_g": 4.49,
   "layers": 29,
   "parts": [
+    "fixed-jaw",
+    "jaw-a",
+    "jaw-b",
+    "nose-a",
+    "nose-b"
+  ],
+  "first_layer_parts": [
     "fixed-jaw",
     "jaw-a",
     "jaw-b",
@@ -43,6 +51,105 @@
     "Floating vertical shell": 337,
     "Bridge": 122
   },
+  "embedded_meshes": {
+    "nose-a": {
+      "triangles": 2570,
+      "watertight": true,
+      "max_vertex_deviation_mm": 5.766601907407844e-07,
+      "volume_delta_mm3": 3.2386813927587355e-05,
+      "slicer_repairs": 0
+    },
+    "nose-b": {
+      "triangles": 2570,
+      "watertight": true,
+      "max_vertex_deviation_mm": 5.766601907407844e-07,
+      "volume_delta_mm3": 3.2386813927587355e-05,
+      "slicer_repairs": 0
+    },
+    "jaw-a": {
+      "triangles": 962,
+      "watertight": true,
+      "max_vertex_deviation_mm": 6.570909690481482e-07,
+      "volume_delta_mm3": 3.5338703128218185e-06,
+      "slicer_repairs": 0
+    },
+    "jaw-b": {
+      "triangles": 962,
+      "watertight": true,
+      "max_vertex_deviation_mm": 6.570909690481482e-07,
+      "volume_delta_mm3": 3.5536047278128535e-06,
+      "slicer_repairs": 0
+    },
+    "fixed-jaw": {
+      "triangles": 884,
+      "watertight": true,
+      "max_vertex_deviation_mm": 2.416865860047992e-07,
+      "volume_delta_mm3": -7.899557203927543e-07,
+      "slicer_repairs": 0
+    }
+  },
+  "bed_mesh_bounds_mm": {
+    "nose-a": [
+      [
+        116.62530102,
+        136.82741764,
+        0.0
+      ],
+      [
+        155.02532162,
+        155.1674712,
+        4.69995738
+      ]
+    ],
+    "nose-b": [
+      [
+        116.62530102,
+        116.48702879999999,
+        0.0
+      ],
+      [
+        155.02532162,
+        134.82708236,
+        4.69995738
+      ]
+    ],
+    "jaw-a": [
+      [
+        100.97466457235561,
+        134.69200363556837,
+        0.0
+      ],
+      [
+        114.62532433361035,
+        155.1478762188687,
+        2.00005388
+      ]
+    ],
+    "jaw-b": [
+      [
+        134.59377462032987,
+        100.83275531318,
+        0.0
+      ],
+      [
+        155.0249003579068,
+        114.48661216163131,
+        2.00005388
+      ]
+    ],
+    "fixed-jaw": [
+      [
+        119.97436631480085,
+        107.81438576470427,
+        0.0
+      ],
+      [
+        136.52048216596017,
+        114.48869676377089,
+        4.60001564
+      ]
+    ]
+  },
   "gcode_md5_verified": true,
   "source_sha256": {
     "nose-a": "8cff7de8c6f3c6cfd161ff43902de57115ceaa744519095592d8e19b16b00998",
@@ -51,9 +158,10 @@
     "jaw-b": "a364d46d6290b04c00fb53cd0c2ca551be75bbe65fa51267d4c089371d73ba25",
     "fixed-jaw": "561a07ce49de120f4434f846ee96839fe39fbf9d1dfa722d8e6a68b56eaf3bed"
   },
+  "project_sha256": "19aef1b08c5d6e1aeaac0f672ebbd2ee72e39eaaa97a4e41e2faa4b940447b93",
   "slicer_notices": [
-    "Traditional timelapse unsupported: leave timelapse off.",
-    "Headless native thumbnail generation unavailable; separate toolpath preview provided."
+    "No native thumbnail from the headless slicer; open the project and reslice in Bambu Studio to generate its preview.",
+    "Leave timelapse off."
   ],
-  "physical_validation": "Not yet printed or tested."
+  "physical_validation": "Handle not yet printed; head printed and assembled by the builder. Digital checks do not establish hardware fit, grip, fatigue, or stop strength."
 }

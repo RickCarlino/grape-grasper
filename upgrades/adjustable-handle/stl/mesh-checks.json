@@ -1,0 +1,128 @@
+{
+  "handle-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 7578.232,
+    "volume_change_mm3": -0.01849,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        69.0,
+        72.5,
+        7.5
+      ]
+    ],
+    "triangles": 4116
+  },
+  "handle-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 7578.248,
+    "volume_change_mm3": -0.02117,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        69.0,
+        72.5,
+        7.5
+      ]
+    ],
+    "triangles": 4114
+  },
+  "trigger-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 3103.506,
+    "volume_change_mm3": -0.00513,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        24.0,
+        70.5,
+        5.2
+      ]
+    ],
+    "triangles": 3890
+  },
+  "trigger-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 3103.506,
+    "volume_change_mm3": -0.00512,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        24.0,
+        70.5,
+        5.2
+      ]
+    ],
+    "triangles": 3890
+  },
+  "carrier": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 383.465,
+    "volume_change_mm3": -0.00013,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        11.8,
+        7.05,
+        9.0
+      ]
+    ],
+    "triangles": 3170
+  },
+  "layout": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 5,
+    "volume_mm3": 21746.777,
+    "volume_change_mm3": 0.04325,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        3.0,
+        0.0
+      ],
+      [
+        219.0,
+        125.0,
+        9.0
+      ]
+    ],
+    "triangles": 19134
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checked_documents": {
+    "README.md": {
+      "local_links_valid": true,
+      "image_count": 17,
+      "sha256": "4b37b09756d788655f33c133579d7598d8382f397baea0219ee59662960dc616"
+    },
+    "designs/guided-wire-handle/README.md": {
+      "local_links_valid": true,
+      "image_count": 4,
+      "sha256": "41264f8bfc8b9d08942afdd7f1d3e2dcf10274523aa741872a03768145439ec5"
+    },
+    "docs/LEVER-HANDLE.md": {
+      "local_links_valid": true,
+      "image_count": 2,
+      "sha256": "6dce0c25e21f9bc577c600428ac985865d931714874da1638aa285917d0766e9"
+    },
+    "docs/HEAD-V02.md": {
+      "local_links_valid": true,
+      "image_count": 2,
+      "sha256": "28beb42770f29c5a1eb1ffba5595f3a9531d0284775cae3246fd8bf76262a5a9"
+    },
+    "prints/fox-build-a1-head-v02/PRINT-GUIDE.md": {
+      "local_links_valid": true,
+      "image_count": 1,
+      "sha256": "fe211dae05d866a27aab84dd98e093fb503c463ba4e941230fb7bd1f3599e611"
+    }
+  },
+  "current_hardware_counts": {
+    "M3_screws": 8,
+    "M3_nuts": 8,
+    "M3_washers": 16,
+    "M2_screws": 5,
+    "M2_nuts": 5,
+    "M2_washers": 6
+  },
+  "handle_print_seconds": 8114,
+  "handle_PLA_g": 28.55,
+  "head_print_seconds": 2013,
+  "head_PLA_g": 4.49,
+  "price_record_date": "2026-09-05",
+  "new_price_check": false,
+  "readme_sha256": "4b37b09756d788655f33c133579d7598d8382f397baea0219ee59662960dc616"
+}

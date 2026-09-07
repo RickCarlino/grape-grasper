@@ -1,0 +1,2779 @@
+{
+  "status": "PASS",
+  "scope": "New 6 mm handle, wire routing, and assembly access. Head identity and original 0–20 degree reference range checked separately; no full-stroke head clearance claim.",
+  "sourceSHA256": "4352bbf5f5c0338f0862653c76e7a37c133551c1cb12e4ec14b2ad47573d75e8",
+  "sampleCount": 122,
+  "revision": "6mm-through-wire",
+  "nominalMechanicalAdvantage": 4.333333333333333,
+  "rodStroke_mm": 6,
+  "driveSlotBacklash_mm": 0.3,
+  "stopToStopTravel_mm": 6.4,
+  "workingTravelMarginEachEnd_mm": 0.20000000000000018,
+  "fingerTravel_mm": 26,
+  "unsupportedHandleGap_mm": [
+    0,
+    0
+  ],
+  "tongueTubeOverlap_mm": [
+    0.5999999999999996,
+    6.600000000000001
+  ],
+  "tongueCrossSection_mm": [
+    3.4,
+    3.4
+  ],
+  "tongueTubeRadialClearance_mm": 0.4158369439657381,
+  "driveTipAboveWire_mm": 1.8000000000000007,
+  "rearWirePassage_mm": [
+    1.5,
+    1.5
+  ],
+  "clampToTube_mm": [
+    7,
+    13
+  ],
+  "stationaryGuideLength_mm": 1.8000000000000007,
+  "sliderClearanceEachSide_mm": 0.25,
+  "sliderVerticalClearance_mm": 0.35,
+  "drivePinEngagement_mm": 3.5,
+  "drivePinFloorClearance_mm": 0.5,
+  "motion": [
+    {
+      "side": -1,
+      "wireAdvance_mm": 0,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.30000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.6000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.7000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.8,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 0.9,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.2000000000000002,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.3,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.4000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.7000000000000002,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.8,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 1.9000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.3000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.4000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.8000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 2.9000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.3000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.4000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.8000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3.9000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.1000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.3,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.6000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.800000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 4.9,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.1000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.300000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.6000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.800000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 5.9,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.30000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 1.75690996018045e-8,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.6000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.7000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.8,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0.9,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.2000000000000002,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.3,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.4000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.7000000000000002,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.8,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 1.9000000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.3000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.4000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.8000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 1.029907841301747e-8,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 2.9000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 1.029917240553957e-8,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.1,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.3000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.4000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.8000000000000003,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3.9000000000000004,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.1000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.3,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.6000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.800000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 4.9,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.1000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.2,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 1.7569359944766966e-8,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.300000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.4,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.5,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.6000000000000005,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.7,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.800000000000001,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 5.9,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 6,
+      "carriageFrame": 0,
+      "leverFrame": 0,
+      "leverCarriage": 0,
+      "wireSolids": 0,
+      "clampHardware": 0,
+      "driveHardware": 0,
+      "staticHardware": 0
+    }
+  ],
+  "insertion": [
+    {
+      "nut": "clamp",
+      "offset": 9,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 8.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 8.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 8.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 8,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 7.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 7.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 7.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 7,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 6.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 6.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 6.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 6,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 5.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 5.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 5.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 4.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 4.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 4.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 4,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 3.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 3.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 3.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 3,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 2.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 2.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 2.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 2,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 1.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 1.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 1.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 1,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 0.75,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 0.5,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 0.25,
+      "mm3": 0
+    },
+    {
+      "nut": "clamp",
+      "offset": 0,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -9,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -8.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -8.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -8.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -8,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -7.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -7.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -7.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -7,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -6.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -6.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -6.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -6,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -5.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -5.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -5.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -4.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -4.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -4.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -4,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -3.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -3.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -3.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -3,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -2.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -2.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -2.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -2,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -1.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -1.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -1.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -1,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -0.75,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -0.5,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": -0.25,
+      "mm3": 0
+    },
+    {
+      "nut": "drive",
+      "offset": 0,
+      "mm3": 0
+    }
+  ],
+  "stops": [
+    {
+      "displacement": -3.25,
+      "overlap": 2.387240249965972
+    },
+    {
+      "displacement": 3.25,
+      "overlap": 1.5010528873734805
+    }
+  ],
+  "driveContact": [
+    {
+      "side": -1,
+      "wireAdvance_mm": 0,
+      "overlapAfter002mmTowardFlank": 0.01567731939879491
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 3,
+      "overlapAfter002mmTowardFlank": 0.0159957550448194
+    },
+    {
+      "side": -1,
+      "wireAdvance_mm": 6,
+      "overlapAfter002mmTowardFlank": 0.01586093869502442
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 0,
+      "overlapAfter002mmTowardFlank": 0.01587536056531301
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 3,
+      "overlapAfter002mmTowardFlank": 0.016010067716410198
+    },
+    {
+      "side": 1,
+      "wireAdvance_mm": 6,
+      "overlapAfter002mmTowardFlank": 0.01569158571026663
+    }
+  ],
+  "assemblyAccess": [
+    {
+      "operation": "carriageDropIn",
+      "offset": 0,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 0.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 1,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 1.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 2,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 2.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 3,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 3.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 4,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 4.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 5.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 6,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 6.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 7,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 7.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 8,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 8.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 9,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 9.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 10,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 10.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 11,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 11.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 12,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 12.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 13,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 13.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 14,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 14.5,
+      "mm3": 0
+    },
+    {
+      "operation": "carriageDropIn",
+      "offset": 15,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 0,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 0.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 1,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 1.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 2,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 2.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 3,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 3.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 4,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 4.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 5.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 6,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 6.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 7,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 7.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 8,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 8.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 9,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 9.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 10,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 10.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 11,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 11.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 12,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 12.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 13,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 13.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 14,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 14.5,
+      "mm3": 0
+    },
+    {
+      "operation": "tubeInsertion",
+      "offset": 15,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -6,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -5.75,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -5.5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -5.25,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -4.75,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -4.5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -4.25,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -4,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -3.75,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -3.5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -3.25,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -3,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -2.75,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -2.5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -2.25,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -2,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -1.75,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -1.5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -1.25,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -1,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -0.75,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -0.5,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": -0.25,
+      "mm3": 0
+    },
+    {
+      "operation": "pivotNutInsertion",
+      "offset": 0,
+      "mm3": 0
+    }
+  ],
+  "headUnchanged": [
+    {
+      "name": "noseHalf",
+      "delta": 0
+    },
+    {
+      "name": "jawHalf",
+      "delta": 0
+    },
+    {
+      "name": "fixedJaw",
+      "delta": 0
+    }
+  ],
+  "legacyHead": [
+    {
+      "angle": 0,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 0.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 0.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 0.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 1,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 1.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 1.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 1.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 2,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 2.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 2.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 2.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 3,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 3.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 3.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 3.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 4,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 4.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 4.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 4.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 5.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 5.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 5.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 6,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 6.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 6.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 6.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 7,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 7.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 7.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 7.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 8,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 8.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 8.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 8.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 9,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 9.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 9.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 9.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 10,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 10.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 10.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 10.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 11,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 11.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 11.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 11.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 12,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 12.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 12.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 12.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 13,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 13.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 13.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 13.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 14,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 14.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 14.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 14.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 15,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 15.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 15.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 15.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 16,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 16.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 16.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 16.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 17,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 17.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 17.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 17.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 18,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 18.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 18.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 18.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 19,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 19.25,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 19.5,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 19.75,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    },
+    {
+      "angle": 20,
+      "headOverlap": 0,
+      "wireOverlap": 0
+    }
+  ],
+  "legacyHeadMaxWireTravel_mm": 2.394141003279681,
+  "throughWire": [
+    {
+      "side": -1,
+      "travel": 0,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "travel": 1,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "travel": 2,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "travel": 3,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "travel": 4,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "travel": 5,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "travel": 6,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 0,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 1,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 2,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 3,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 4,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 5,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "travel": 6,
+      "overlap_mm3": 0
+    }
+  ],
+  "freeStops": [
+    {
+      "displacement": -3.1900000000000004,
+      "overlap": 0
+    },
+    {
+      "displacement": 3.1900000000000004,
+      "overlap": 0
+    }
+  ],
+  "headExtensionDiagnostic": [
+    {
+      "assumedWireAdvance_mm": 3,
+      "assumedAngle_deg": 25.376933525152303,
+      "headBodyOverlap_mm3": 0
+    },
+    {
+      "assumedWireAdvance_mm": 3.5,
+      "assumedAngle_deg": 30.000000000000004,
+      "headBodyOverlap_mm3": 0.09378889471216034
+    },
+    {
+      "assumedWireAdvance_mm": 4,
+      "assumedAngle_deg": 34.84990457904648,
+      "headBodyOverlap_mm3": 0.3180494480707221
+    },
+    {
+      "assumedWireAdvance_mm": 4.5,
+      "assumedAngle_deg": 40.00520088486023,
+      "headBodyOverlap_mm3": 0.4619782292376353
+    },
+    {
+      "assumedWireAdvance_mm": 5,
+      "assumedAngle_deg": 45.584691402807024,
+      "headBodyOverlap_mm3": 0.433431846091902
+    },
+    {
+      "assumedWireAdvance_mm": 5.5,
+      "assumedAngle_deg": 51.78678929826181,
+      "headBodyOverlap_mm3": 0.19770623136827492
+    },
+    {
+      "assumedWireAdvance_mm": 6,
+      "assumedAngle_deg": 58.99728086612601,
+      "headBodyOverlap_mm3": 0
+    }
+  ],
+  "headCalibrationNote": "Builder measured 6 mm on the printed v2 head. The old ideal 7 mm crank model shows small body overlaps beyond its original range and does not establish the as-built jaw angle. Keep the assembled head, fit the wire to its real closed position, and check for rubbing without forcing it.",
+  "failures": [],
+  "limitations": "Prototype: dimensional collision checks, not force, buckling, wear, or friction tests. Printed guide fit and wire grip require a bench test. Tube ID is much larger than the wire; internal bowing remains possible."
+}

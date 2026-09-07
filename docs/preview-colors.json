@@ -1,20 +1,5 @@
 {
   "colors": {
-    "handle-a": [
-      0.21,
-      0.31,
-      0.55
-    ],
-    "handle-b": [
-      0.65,
-      0.52,
-      0.84
-    ],
-    "trigger": [
-      0.95,
-      0.55,
-      0.16
-    ],
     "nose-a": [
       0.13,
       0.54,
@@ -39,131 +24,24 @@
       0.7,
       0.31,
       0.62
+    ],
+    "fixed-grip": [
+      0.21,
+      0.31,
+      0.55
+    ],
+    "squeeze-lever": [
+      0.95,
+      0.55,
+      0.16
+    ],
+    "tube-cap": [
+      0.65,
+      0.52,
+      0.84
     ]
   },
   "layouts": {
-    "layout": [
-      {
-        "part": "handle-a",
-        "bounds": [
-          [
-            -7.9998250000000155,
-            2.5000799999999987,
-            0
-          ],
-          [
-            61,
-            74.99994000000001,
-            6.2
-          ]
-        ]
-      },
-      {
-        "part": "handle-b",
-        "bounds": [
-          [
-            72.00017499999998,
-            8.000059999999998,
-            0
-          ],
-          [
-            141,
-            80.49992,
-            6.2
-          ]
-        ]
-      },
-      {
-        "part": "trigger",
-        "bounds": [
-          [
-            156.99990333333332,
-            8.999900000000004,
-            0
-          ],
-          [
-            181.00009666666668,
-            79.499905,
-            6
-          ]
-        ]
-      },
-      {
-        "part": "nose-a",
-        "bounds": [
-          [
-            12,
-            104.80001734065777,
-            0
-          ],
-          [
-            50.40004876419111,
-            123.14,
-            4.7
-          ]
-        ]
-      },
-      {
-        "part": "nose-b",
-        "bounds": [
-          [
-            60,
-            98.86,
-            0
-          ],
-          [
-            98.40004876419111,
-            117.19998265934223,
-            4.7
-          ]
-        ]
-      },
-      {
-        "part": "jaw-a",
-        "bounds": [
-          [
-            19.599975333333333,
-            136.59996066666668,
-            0
-          ],
-          [
-            40.000002666666674,
-            150.400004,
-            2
-          ]
-        ]
-      },
-      {
-        "part": "jaw-b",
-        "bounds": [
-          [
-            48.59997533333333,
-            138.599996,
-            0
-          ],
-          [
-            69.00000266666667,
-            152.40003933333332,
-            2
-          ]
-        ]
-      },
-      {
-        "part": "fixed-jaw",
-        "bounds": [
-          [
-            80.59996,
-            137.10002,
-            -8.881784197001252e-16
-          ],
-          [
-            94.999982,
-            148,
-            4.6000000000000005
-          ]
-        ]
-      }
-    ],
     "head-layout": [
       {
         "part": "nose-a",
@@ -240,6 +118,105 @@
           ]
         ]
       }
+    ],
+    "layout": [
+      {
+        "part": "fixed-grip",
+        "bounds": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            105.50000000000001,
+            86.50003333333333,
+            10
+          ]
+        ]
+      },
+      {
+        "part": "squeeze-lever",
+        "bounds": [
+          [
+            115,
+            0,
+            0
+          ],
+          [
+            138.99976363666667,
+            83.99993939388891,
+            10
+          ]
+        ]
+      },
+      {
+        "part": "tube-cap",
+        "bounds": [
+          [
+            150,
+            0,
+            0
+          ],
+          [
+            168,
+            21,
+            7.400000000000002
+          ]
+        ]
+      }
     ]
-  }
+  },
+  "gallery": [
+    {
+      "source": "fixed-grip.stl",
+      "image": "fixed-grip",
+      "label": "Fixed grip"
+    },
+    {
+      "source": "squeeze-lever.stl",
+      "image": "squeeze-lever",
+      "label": "Squeeze lever"
+    },
+    {
+      "source": "tube-cap.stl",
+      "image": "tube-cap",
+      "label": "Tube cap"
+    },
+    {
+      "source": "layout.stl",
+      "image": "handle-layout",
+      "label": "Handle print layout"
+    },
+    {
+      "source": "nose-a.stl",
+      "image": "nose-a",
+      "label": "Nose A"
+    },
+    {
+      "source": "nose-b.stl",
+      "image": "nose-b",
+      "label": "Nose B"
+    },
+    {
+      "source": "jaw-a.stl",
+      "image": "jaw-a",
+      "label": "Jaw A"
+    },
+    {
+      "source": "jaw-b.stl",
+      "image": "jaw-b",
+      "label": "Jaw B"
+    },
+    {
+      "source": "fixed-jaw.stl",
+      "image": "fixed-jaw",
+      "label": "Fixed tip insert"
+    },
+    {
+      "source": "head-layout.stl",
+      "image": "head-layout",
+      "label": "Head print layout"
+    }
+  ]
 }

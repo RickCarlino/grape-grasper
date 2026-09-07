@@ -1,0 +1,107 @@
+{
+  "cheek-a": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 21.753,
+    "volume_change_mm3": 4e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        13.95,
+        4.05,
+        0.8
+      ]
+    ],
+    "triangles": 1698
+  },
+  "cheek-b": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 21.753,
+    "volume_change_mm3": 4e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        13.95,
+        4.05,
+        0.8
+      ]
+    ],
+    "triangles": 1698
+  },
+  "moving-jaw": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 22.981,
+    "volume_change_mm3": -2e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        18.95,
+        3.65,
+        1.0
+      ]
+    ],
+    "triangles": 1146
+  },
+  "fixed-jaw": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 15.139,
+    "volume_change_mm3": 1e-05,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        12.85,
+        2.1,
+        1.0
+      ]
+    ],
+    "triangles": 862
+  },
+  "insert": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 228.99,
+    "volume_change_mm3": -0.00016,
+    "min_z": 0.0,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        11.5,
+        5.5,
+        5.5
+      ]
+    ],
+    "triangles": 1790
+  }
+}

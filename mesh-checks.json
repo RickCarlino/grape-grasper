@@ -1,212 +1,179 @@
 {
+  "fixed-grip": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 9402.560033470721,
+    "CAD_volume_delta_mm3": 0.0003865300786856096,
+    "bounds_mm": [
+      [
+        7.105427357601002e-15,
+        7.105427357601002e-15,
+        0.0
+      ],
+      [
+        105.5,
+        86.50003051757812,
+        10.0
+      ]
+    ],
+    "sha256": "70b8f53a7a7140133f9c3f2ef4c3391784854b4515556a4e2aed8c0c01fc04b5"
+  },
+  "squeeze-lever": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 5072.655617634745,
+    "CAD_volume_delta_mm3": 0.0073899795397665,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        24.0,
+        84.0,
+        10.0
+      ]
+    ],
+    "sha256": "e6afe88c2a5e9fee2a3acd0d8c46dcd9d89c1380c5d3090a1592994338b04967"
+  },
+  "tube-cap": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "volume_mm3": 2362.838401053286,
+    "CAD_volume_delta_mm3": 2.4942482468759408e-05,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        18.0,
+        21.0,
+        7.400000095367432
+      ]
+    ],
+    "sha256": "73225886786c2944bf5ca6c20395dcb08ada5c0b2e314619bd423ec7617952ee"
+  },
   "nose-a": {
     "watertight": true,
     "winding_consistent": true,
     "bodies": 1,
-    "volume_mm3": 1410.848,
-    "volume_change_mm3": 0.00046,
-    "min_z": 0.0,
+    "volume_mm3": 1410.8478987570645,
+    "CAD_volume_delta_mm3": 0.006127428468289509,
     "bounds_mm": [
       [
-        -25.0,
-        -7.2,
+        -24.999948501586914,
+        -7.199952602386475,
         0.0
       ],
       [
-        13.4,
-        11.14,
-        4.7
+        13.400071144104004,
+        11.140101432800293,
+        4.699957370758057
       ]
     ],
-    "triangles": 2570
+    "sha256": "8cff7de8c6f3c6cfd161ff43902de57115ceaa744519095592d8e19b16b00998"
   },
   "nose-b": {
     "watertight": true,
     "winding_consistent": true,
     "bodies": 1,
-    "volume_mm3": 1410.848,
-    "volume_change_mm3": 0.00046,
-    "min_z": 0.0,
+    "volume_mm3": 1410.8478987570645,
+    "CAD_volume_delta_mm3": 0.006127428468289509,
     "bounds_mm": [
       [
-        -25.0,
-        -11.14,
+        -24.999948501586914,
+        -11.140101432800293,
         0.0
       ],
       [
-        13.4,
-        7.2,
-        4.7
+        13.400071144104004,
+        7.199952602386475,
+        4.699957370758057
       ]
     ],
-    "triangles": 2570
+    "sha256": "2c7804a3ac512cfb2fdc9e1425e93dd5974f6d726fd67ceb138d26d6ad90e5f2"
   },
   "jaw-a": {
     "watertight": true,
     "winding_consistent": true,
     "bodies": 1,
-    "volume_mm3": 200.575,
-    "volume_change_mm3": 8e-05,
-    "min_z": 0.0,
+    "volume_mm3": 200.57502371006277,
+    "CAD_volume_delta_mm3": 0.00477003320858671,
     "bounds_mm": [
       [
-        -3.4,
-        -6.4,
+        -3.400031328201294,
+        -6.400051593780518,
         0.0
       ],
       [
-        17.0,
-        7.4,
-        2.0
+        17.000036239624023,
+        7.400018215179443,
+        2.000053882598877
       ]
     ],
-    "triangles": 962
+    "sha256": "7035d73f124ad1742a3dbe7bef94c8a5c1c32aea9e3c94ed452b3aefd6c68498"
   },
   "jaw-b": {
     "watertight": true,
     "winding_consistent": true,
     "bodies": 1,
-    "volume_mm3": 200.575,
-    "volume_change_mm3": 8e-05,
-    "min_z": 0.0,
+    "volume_mm3": 200.57494326410176,
+    "CAD_volume_delta_mm3": 0.004689587247440841,
     "bounds_mm": [
       [
-        -3.4,
-        -7.4,
+        -3.400031328201294,
+        -7.400018215179443,
         0.0
       ],
       [
-        17.0,
-        6.4,
-        2.0
+        17.000036239624023,
+        6.400051593780518,
+        2.000053882598877
       ]
     ],
-    "triangles": 962
+    "sha256": "a364d46d6290b04c00fb53cd0c2ca551be75bbe65fa51267d4c089371d73ba25"
   },
   "fixed-jaw": {
     "watertight": true,
     "winding_consistent": true,
     "bodies": 1,
-    "volume_mm3": 320.098,
-    "volume_change_mm3": -5e-05,
-    "min_z": 0.0,
+    "volume_mm3": 320.09833305541616,
+    "CAD_volume_delta_mm3": 0.0026361364523950215,
     "bounds_mm": [
       [
-        3.6,
-        -10.9,
+        3.5999603271484375,
+        -10.899946212768555,
         0.0
       ],
       [
         18.0,
         0.0,
-        4.6
+        4.600015640258789
       ]
     ],
-    "triangles": 884
-  },
-  "head-layout": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 5,
-    "volume_mm3": 3542.919,
-    "volume_change_mm3": -0.00211,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        2.0,
-        -1.14,
-        0.0
-      ],
-      [
-        88.4,
-        52.4,
-        4.7
-      ]
-    ],
-    "triangles": 7960
+    "sha256": "561a07ce49de120f4434f846ee96839fe39fbf9d1dfa722d8e6a68b56eaf3bed"
   },
   "layout": {
     "watertight": true,
-    "winding_consistent": true,
-    "bodies": 8,
-    "volume_mm3": 21011.813,
-    "volume_change_mm3": -0.0303,
-    "min_z": 0.0,
+    "bodies": 3,
     "bounds_mm": [
       [
-        -8.0,
-        2.5,
+        7.105427357601002e-15,
+        0.0,
         0.0
       ],
       [
-        181.0,
-        152.4,
-        6.2
+        168.0,
+        86.50003051757812,
+        10.0
       ]
     ],
-    "triangles": 18266
-  },
-  "handle-a": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 1,
-    "volume_mm3": 6703.577,
-    "volume_change_mm3": 0.0029,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -40.0,
-        -12.5,
-        0.0
-      ],
-      [
-        29.0,
-        60.0,
-        6.2
-      ]
-    ],
-    "triangles": 3664
-  },
-  "handle-b": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 1,
-    "volume_mm3": 6703.577,
-    "volume_change_mm3": 0.0029,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -40.0,
-        -60.0,
-        0.0
-      ],
-      [
-        29.0,
-        12.5,
-        6.2
-      ]
-    ],
-    "triangles": 3664
-  },
-  "trigger": {
-    "watertight": true,
-    "winding_consistent": true,
-    "bodies": 1,
-    "volume_mm3": 4061.731,
-    "volume_change_mm3": 0.00211,
-    "min_z": 0.0,
-    "bounds_mm": [
-      [
-        -12.0,
-        -59.0,
-        0.0
-      ],
-      [
-        12.0,
-        11.5,
-        6.0
-      ]
-    ],
-    "triangles": 2964
+    "sha256": "044a5b4af0c8105409bc3348a2522c9c5212873d9a7932cea207b20ffffbce38"
   }
 }

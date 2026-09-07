@@ -1,0 +1,47 @@
+{
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1",
+  "printer_model_id": "N2S",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "bed": "Textured PEI Plate",
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.2,
+  "wall_loops": 5,
+  "infill": "60% gyroid",
+  "support": "Disabled; each part starts on a flat bed face; small internal nut/washer pockets bridge",
+  "brim": "2 mm outside only",
+  "estimated_seconds": 867,
+  "estimated_filament_g": 0.54,
+  "layers": 56,
+  "parts": [
+    "carrier"
+  ],
+  "extrusion_bounds_xy_mm": [
+    [
+      120.401,
+      122.775
+    ],
+    [
+      135.6,
+      133.225
+    ]
+  ],
+  "feature_segment_counts": {
+    "Brim": 205,
+    "Outer wall": 5164,
+    "Inner wall": 4710,
+    "Gap infill": 1651,
+    "Top surface": 98,
+    "Overhang wall": 183
+  },
+  "gcode_md5_verified": true,
+  "source_sha256": {
+    "carrier": "0ce4a7671da62ec181681eb0d90b19682e2f9a275640c078c371cf22f20deb74"
+  },
+  "slicer_notices": [
+    "Traditional timelapse unsupported: leave timelapse off.",
+    "Headless native thumbnail generation unavailable; separate toolpath preview provided."
+  ],
+  "physical_validation": "Not yet printed or tested."
+}

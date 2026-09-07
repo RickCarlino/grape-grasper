@@ -1,3 +1,5 @@
+> **Historical print record — superseded.** Use the [current lever-handle project](../fox-build-a1-lever/PRINT-GUIDE.md) and [v2 head project](../fox-build-a1-head-v02/PRINT-GUIDE.md).
+
 > **Superseded v0.1 head:** the first PLA print showed head failures. Use the [v0.2 head-only package](../fox-build-a1-head-v02/PRINT-GUIDE.md) for the replacement. The handle geometry is unchanged.
 
 # Grape grasper — Fox.Build Bambu A1 print package

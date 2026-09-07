@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1",
+  "printer_model_id": "N2S",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "bed": "Textured PEI Plate",
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.2,
+  "wall_loops": 5,
+  "infill": "60% gyroid",
+  "support": "Disabled; short internal bridges remain",
+  "brim": "2 mm outside only",
+  "estimated_seconds": 8114,
+  "estimated_filament_g": 28.55,
+  "layers": 81,
+  "parts": [
+    "carriage",
+    "cover",
+    "frame",
+    "lever"
+  ],
+  "first_layer_parts": [
+    "carriage",
+    "cover",
+    "frame",
+    "lever"
+  ],
+  "extrusion_bounds_xy_mm": [
+    [
+      73.682,
+      73.474
+    ],
+    [
+      182.321,
+      182.508
+    ]
+  ],
+  "feature_segment_counts": {
+    "Brim": 1366,
+    "Outer wall": 37606,
+    "Inner wall": 118935,
+    "Gap infill": 10589,
+    "Bottom surface": 919,
+    "Internal solid infill": 14739,
+    "Sparse infill": 104252,
+    "Top surface": 1595,
+    "Floating vertical shell": 7522,
+    "Bridge": 1462,
+    "Overhang wall": 403
+  },
+  "embedded_meshes": {
+    "frame": {
+      "triangles": 2600,
+      "watertight": true,
+      "max_vertex_deviation_mm": 2.674681090857391e-06,
+      "volume_delta_mm3": 4.036977406940423e-05,
+      "slicer_repairs": 0
+    },
+    "lever": {
+      "triangles": 2594,
+      "watertight": true,
+      "max_vertex_deviation_mm": 1.9416497505625633e-06,
+      "volume_delta_mm3": 3.094703652095632e-05,
+      "slicer_repairs": 0
+    },
+    "cover": {
+      "triangles": 1248,
+      "watertight": true,
+      "max_vertex_deviation_mm": 9.907456954484876e-07,
+      "volume_delta_mm3": 2.6568417524686083e-05,
+      "slicer_repairs": 0
+    },
+    "carriage": {
+      "triangles": 1064,
+      "watertight": true,
+      "max_vertex_deviation_mm": 5.139216302011795e-07,
+      "volume_delta_mm3": -1.0821498108271044e-05,
+      "slicer_repairs": 0
+    }
+  },
+  "bed_mesh_bounds_mm": {
+    "frame": [
+      [
+        75.37970821022772,
+        126.12184779811406,
+        0.0
+      ],
+      [
+        180.60597924346598,
+        180.8179470365,
+        13.0
+      ]
+    ],
+    "lever": [
+      [
+        96.80182213797367,
+        100.17360708066093,
+        0.0
+      ],
+      [
+        180.62081374044595,
+        124.12187226059827,
+        7.3000002
+      ]
+    ],
+    "cover": [
+      [
+        122.42081,
+        75.17363,
+        0.0
+      ],
+      [
+        180.62081080000002,
+        98.17363,
+        6.4499998
+      ]
+    ],
+    "carriage": [
+      [
+        88.82082,
+        88.17366,
+        0.0
+      ],
+      [
+        120.4208204,
+        98.17366,
+        7.5
+      ]
+    ]
+  },
+  "gcode_md5_verified": true,
+  "source_sha256": {
+    "frame": "5b929c2f94f2cd643580a8bdf085a6c5b47e112c92af4637d2aec4ffdeeec08d",
+    "lever": "6ff8127b122b22b55a7414015e17e1fd46dd1e23b94697a4164f69eb276d43bd",
+    "carriage": "470e84f85d7784bd289264b3bec3baa3016295b2c9e799846ddcbbedc12ca212",
+    "cover": "9c2537984b103e172f2c68eff84474d91e73edd2ffaa8c276ae82a4b01060ed0"
+  },
+  "project_sha256": "cb3e51a29fddb5d7a47ac42fa89d20b04ef1a11d6565c529199cf765064fe54d",
+  "slicer_notices": [
+    "No native thumbnail from the headless slicer; open the project and reslice in Bambu Studio to generate its preview.",
+    "Leave timelapse off."
+  ],
+  "physical_validation": "Handle not yet printed; head printed and assembled by the builder. Digital checks do not establish hardware fit, grip, fatigue, or stop strength."
+}

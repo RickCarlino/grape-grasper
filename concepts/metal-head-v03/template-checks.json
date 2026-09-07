@@ -1,0 +1,34 @@
+[
+  {
+    "name": "cheek-a",
+    "contours": 5,
+    "areaMM2": 27.191813253333354,
+    "thicknessMM": 0.8,
+    "projectionMatchesSolid": true,
+    "volumeDifferenceMM3": 0.0001494497777443371
+  },
+  {
+    "name": "cheek-b",
+    "contours": 5,
+    "areaMM2": 27.191813253333354,
+    "thicknessMM": 0.8,
+    "projectionMatchesSolid": true,
+    "volumeDifferenceMM3": 0.00014944977777631152
+  },
+  {
+    "name": "moving-jaw",
+    "contours": 3,
+    "areaMM2": 22.980137443831584,
+    "thicknessMM": 1,
+    "projectionMatchesSolid": true,
+    "volumeDifferenceMM3": -0.00005419133186990166
+  },
+  {
+    "name": "fixed-jaw",
+    "contours": 3,
+    "areaMM2": 15.139665227735408,
+    "thicknessMM": 1,
+    "projectionMatchesSolid": true,
+    "volumeDifferenceMM3": -0.000009324346624595137
+  }
+]

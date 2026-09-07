@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "samples": 36,
+  "rodStroke": 2.394141003279681,
+  "handleStroke": 2.394141003279681,
+  "closedHeadEnvelopeDiameter": 6.902897942168926,
+  "closedHeadBounds": [
+    [
+      -17,
+      -2.75,
+      -3.1725436575115267
+    ],
+    [
+      14.299980500000007,
+      2.75,
+      3.1725436575115267
+    ]
+  ],
+  "tipOpeningAtX13": 7.601172037132406,
+  "failures": [],
+  "limitations": [
+    "Nominal geometry; no strength, friction or wear validation.",
+    "Z bend in actual music wire needs a forming trial.",
+    "Flush rivet retention is a modeled envelope, not a proven assembly process.",
+    "Tube bore and sheet stock must be measured; handle end of wire must be re-formed."
+  ],
+  "sourceSHA256": "5e89b82b0327b518c0cda1c03ab5f8846cc64dd7668b4bf0b65118233683bd2e"
+}

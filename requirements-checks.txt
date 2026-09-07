@@ -1,0 +1,5 @@
+numpy>=1.24,<3
+trimesh>=4,<5
+networkx>=3,<4
+matplotlib>=3.7,<4
+manifold3d>=3,<4

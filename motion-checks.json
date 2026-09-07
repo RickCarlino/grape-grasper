@@ -1,219 +1,1112 @@
 {
-  "motion": [
+  "status": "PASS",
+  "sampleStep_degrees": 0.25,
+  "nominalMechanicalAdvantage": 4.333333333333333,
+  "rodTravel_mm": 2.394141003279681,
+  "leverSwing_degrees": 9.15467996830027,
+  "fingerTravel_mm": 10.37461101421195,
+  "freeWireLength_mm": [
+    38.80292949836016,
+    41.19707050163984
+  ],
+  "pivotWasher_mm": 0.5,
+  "stops": [
     {
-      "angle": 0,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
+      "opening": -1,
+      "contact_mm3": 0.042520916649893215
     },
     {
-      "angle": 1,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 2,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 3,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 4,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 5,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 6,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 7,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 8,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 9,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 10,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 11,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 12,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 13,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 14,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 15,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 16,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 17,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 18,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 19,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
-    },
-    {
-      "angle": 20,
-      "trigger_frame_mm3": 0,
-      "jaw_frame_mm3": 0,
-      "rod_printed_mm3": 0,
-      "tube_printed_mm3": 0,
-      "head_link_fastener_frame_mm3": 0
+      "opening": 21,
+      "contact_mm3": 0.03694172153984895
     }
   ],
-  "layout_overlaps": [],
-  "comparison": {
-    "old_head_volume_mm3": 5855.548,
-    "new_head_volume_mm3": 3542.9197469298674,
-    "material_reduction_percent": 39.494651108147906,
-    "old_head_thickness_mm": 12.4,
-    "new_head_thickness_mm": 9.4,
-    "old_closed_head_size_mm": [
-      45,
-      21.5,
-      12.4
-    ],
-    "new_closed_head_size_mm": [
-      42.999982,
-      18.339982659342223,
-      9.4
-    ]
-  },
-  "compatibility": {
-    "tube_length_mm": 116,
-    "tube_od_mm": 6.35,
-    "pivot_spacing_mm": 140,
-    "rod_eye_spacing_mm": 140,
-    "crank_radius_mm": 7
-  },
-  "analytic": {
-    "rod_stroke_mm": 2.394141003279681,
-    "jaw_gap_at_16mm_mm": 5.653244430852974
-  },
-  "limitations": "Checks sample each whole degree. Digital clearance does not establish physical fit, strength, or durability.",
-  "unchanged_handle_stl_sha256": {
-    "handle-a.stl": "5ea7c70f99c157bc7b010b7cc35ad9507ec8f489d0ac28a46ad61635d38f9941",
-    "handle-b.stl": "82c7ada6b44ac7017c1d97e2ec5d2c64923d1832ac562721f9c2e37ab632a57d",
-    "trigger.stl": "c98627a76bef685154618ee75171f2e8c485a036ffd605bde765316c0b8b9b82"
-  },
-  "reinforcement": {
-    "added_volume_per_cheek_mm3": 23.655510450159287,
-    "total_added_volume_mm3": 47.311020900318574,
-    "removed_volume_per_cheek_mm3": 0,
-    "unique_printed_colors": 8,
-    "unchanged_geometry": [
-      "handleHalf",
-      "trigger",
-      "jawHalf",
-      "fixedJaw"
-    ]
-  }
+  "nutInsertion": [
+    {
+      "x": -10,
+      "mm3": 0
+    },
+    {
+      "x": -9.75,
+      "mm3": 0
+    },
+    {
+      "x": -9.5,
+      "mm3": 0
+    },
+    {
+      "x": -9.25,
+      "mm3": 0
+    },
+    {
+      "x": -9,
+      "mm3": 0
+    },
+    {
+      "x": -8.75,
+      "mm3": 0
+    },
+    {
+      "x": -8.5,
+      "mm3": 0
+    },
+    {
+      "x": -8.25,
+      "mm3": 0
+    },
+    {
+      "x": -8,
+      "mm3": 0
+    },
+    {
+      "x": -7.75,
+      "mm3": 0
+    },
+    {
+      "x": -7.5,
+      "mm3": 0
+    },
+    {
+      "x": -7.25,
+      "mm3": 0
+    },
+    {
+      "x": -7,
+      "mm3": 0
+    },
+    {
+      "x": -6.75,
+      "mm3": 0
+    },
+    {
+      "x": -6.5,
+      "mm3": 0
+    },
+    {
+      "x": -6.25,
+      "mm3": 0
+    },
+    {
+      "x": -6,
+      "mm3": 0
+    },
+    {
+      "x": -5.75,
+      "mm3": 0
+    },
+    {
+      "x": -5.5,
+      "mm3": 0
+    },
+    {
+      "x": -5.25,
+      "mm3": 0
+    },
+    {
+      "x": -5,
+      "mm3": 0
+    },
+    {
+      "x": -4.75,
+      "mm3": 0
+    },
+    {
+      "x": -4.5,
+      "mm3": 0
+    },
+    {
+      "x": -4.25,
+      "mm3": 0
+    },
+    {
+      "x": -4,
+      "mm3": 0
+    },
+    {
+      "x": -3.75,
+      "mm3": 0
+    },
+    {
+      "x": -3.5,
+      "mm3": 0
+    },
+    {
+      "x": -3.25,
+      "mm3": 0
+    },
+    {
+      "x": -3,
+      "mm3": 0
+    },
+    {
+      "x": -2.75,
+      "mm3": 0
+    },
+    {
+      "x": -2.5,
+      "mm3": 0
+    },
+    {
+      "x": -2.25,
+      "mm3": 0
+    },
+    {
+      "x": -2,
+      "mm3": 0
+    },
+    {
+      "x": -1.75,
+      "mm3": 0
+    },
+    {
+      "x": -1.5,
+      "mm3": 0
+    },
+    {
+      "x": -1.25,
+      "mm3": 0
+    },
+    {
+      "x": -1,
+      "mm3": 0
+    },
+    {
+      "x": -0.75,
+      "mm3": 0
+    },
+    {
+      "x": -0.5,
+      "mm3": 0
+    },
+    {
+      "x": -0.25,
+      "mm3": 0
+    },
+    {
+      "x": 0,
+      "mm3": 0
+    }
+  ],
+  "clampScrews": [
+    {
+      "length_mm": 8,
+      "insertion_overlap_mm3": 0
+    },
+    {
+      "length_mm": 12,
+      "insertion_overlap_mm3": 0
+    }
+  ],
+  "motion": [
+    {
+      "opening": 0,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 0.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 0.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 0.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 1,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 1.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 1.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 1.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 2,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 2.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 2.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 2.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 3,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 3.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 3.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 3.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 4,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 4.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 4.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 4.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 5.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 5.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 5.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 6,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 6.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 6.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 6.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 7,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 7.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 7.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 7.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 8,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 8.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 8.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 8.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 9,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 9.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 9.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 9.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 10,
+      "leverFrame": 0,
+      "wireHandle": 0.000005727448524006461,
+      "wireTube": 0.000005727448524006461,
+      "wireHead": 0.000005727448524006461,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 10.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 10.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 10.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 11,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 11.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 11.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 11.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 12,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 12.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 12.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 12.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 13,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 13.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 13.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 13.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 14,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 14.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 14.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 14.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 15,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 15.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 15.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 15.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 16,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 16.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 16.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 16.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 17,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 17.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 17.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 17.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 18,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 18.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 18.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 18.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 19,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 19.25,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 19.5,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 19.75,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    },
+    {
+      "opening": 20,
+      "leverFrame": 0,
+      "wireHandle": 0,
+      "wireTube": 0,
+      "wireHead": 0,
+      "headMovingFixed": 0,
+      "screwFrame": 0,
+      "screwLever": 0,
+      "pivotAndMountHardware": 0
+    }
+  ],
+  "headUnchanged": [
+    {
+      "name": "noseHalf",
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "name": "jawHalf",
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "name": "fixedJaw",
+      "added": 0,
+      "removed": 0
+    }
+  ],
+  "failures": [],
+  "sourceSHA256": "1236aef43a82f122f8207ad9104798c6ef455b1dd8665a973cecd04e4df6b1a0",
+  "physicalValidation": "Handle not printed. Hardware tolerances, wire grip, bending fatigue and stop strength remain untested. The curved wire is illustrative, not a structural simulation."
 }
