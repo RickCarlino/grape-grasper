@@ -1,9 +1,15 @@
 {
-  "source_sha256": "4352bbf5f5c0338f0862653c76e7a37c133551c1cb12e4ec14b2ad47573d75e8",
+  "source_sha256": "07c17fcb69bcb57996fe44e552c6cc4377ae8cedb1fe6921680b85c1e2b15886",
+  "inputs": {
+    "designs/guided-wire-handle/export.cjs": "6566b8fe5fc279dc5935d4da336bb92cc6ed4d845cb388116907a424d6ecc523",
+    "designs/guided-wire-handle/render.py": "633c59f37e1d728d133457fd1f63126bba35d91ac266c1fae07ed774e1a6d370",
+    "scripts/render_assembly.py": "e75868c51669f23dcc0a5c251ad60ca16b70fe2431368c72338ee4a620948776"
+  },
   "images": {
     "assembly": "079fff92106c89d04e5b7af5cffb38476b08b9668a2d946b1b26c522f508098d",
     "handle": "48e8cf366da295b4d10ed2e6ceb6cb7b1bf121de6c9b2243ba5c2504990e7952",
-    "layout": "4e67e565fe7d5af5168e671cfcfaa50f5f39507ed2487fd0c85917f9b52e5a76",
+    "layout": "ce9acbda37343a4fbd8f64b11eed19e20da990cb8ff76aaebbc5f4eb5ba0fa69",
+    "cover": "92afdfabb93add102e7d90c5c7ea1e789e37af3f99ca2cf8f0c45889875de27e",
     "uncovered": "e6d3495a8e72ff53f415491d0c243af686e3518b93e0cb8c923006d92f01fa6d",
     "section-0": "e3a05d3bb94e4337782b0d0cb93fe7d05f1148d7df7f6f8fc33cec7cc15b9d91",
     "section-6": "1f5668986115c91dec8b2a41b9c68907769b5a9e281a5a2188fbef2a9d7a0a3e"

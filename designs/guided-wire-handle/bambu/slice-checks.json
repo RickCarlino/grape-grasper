@@ -12,7 +12,7 @@
   "infill": "60% gyroid",
   "support": "Disabled; short internal bridges remain",
   "brim": "2 mm outside only",
-  "estimated_seconds": 8114,
+  "estimated_seconds": 8113,
   "estimated_filament_g": 28.55,
   "layers": 81,
   "parts": [
@@ -38,16 +38,16 @@
     ]
   ],
   "feature_segment_counts": {
-    "Brim": 1366,
-    "Outer wall": 37606,
-    "Inner wall": 118935,
-    "Gap infill": 10589,
-    "Bottom surface": 919,
-    "Internal solid infill": 14739,
-    "Sparse infill": 104252,
+    "Brim": 1368,
+    "Outer wall": 37579,
+    "Inner wall": 118863,
+    "Gap infill": 10585,
+    "Bottom surface": 928,
+    "Internal solid infill": 14743,
+    "Sparse infill": 104234,
     "Top surface": 1595,
-    "Floating vertical shell": 7522,
-    "Bridge": 1462,
+    "Floating vertical shell": 7523,
+    "Bridge": 1466,
     "Overhang wall": 403
   },
   "embedded_meshes": {
@@ -68,8 +68,8 @@
     "cover": {
       "triangles": 1248,
       "watertight": true,
-      "max_vertex_deviation_mm": 9.907456954484876e-07,
-      "volume_delta_mm3": 2.6568417524686083e-05,
+      "max_vertex_deviation_mm": 1.0503029909776293e-06,
+      "volume_delta_mm3": 2.4845437565090833e-05,
       "slicer_repairs": 0
     },
     "carriage": {
@@ -135,12 +135,12 @@
     "frame": "5b929c2f94f2cd643580a8bdf085a6c5b47e112c92af4637d2aec4ffdeeec08d",
     "lever": "6ff8127b122b22b55a7414015e17e1fd46dd1e23b94697a4164f69eb276d43bd",
     "carriage": "470e84f85d7784bd289264b3bec3baa3016295b2c9e799846ddcbbedc12ca212",
-    "cover": "9c2537984b103e172f2c68eff84474d91e73edd2ffaa8c276ae82a4b01060ed0"
+    "cover": "ec2fd5c3ea2b46266f84ab3ab1a6b325fb5385485e222643b18b566d4fd600d3"
   },
-  "project_sha256": "cb3e51a29fddb5d7a47ac42fa89d20b04ef1a11d6565c529199cf765064fe54d",
+  "project_sha256": "af5121525990fffd210eaedba71904c3cacfb6a653c90e89d4f687d2417058f5",
   "slicer_notices": [
     "No native thumbnail from the headless slicer; open the project and reslice in Bambu Studio to generate its preview.",
     "Leave timelapse off."
   ],
-  "physical_validation": "Handle not yet printed; head printed and assembled by the builder. Digital checks do not establish hardware fit, grip, fatigue, or stop strength."
+  "physical_validation": "Builder printed the handle and reported a mirrored-cover fit failure. This corrected cover has not yet been printed. Digital checks do not establish hardware fit, grip, fatigue, or stop strength."
 }

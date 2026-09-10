@@ -4,12 +4,12 @@
     "README.md": {
       "local_links_valid": true,
       "image_count": 17,
-      "sha256": "4b37b09756d788655f33c133579d7598d8382f397baea0219ee59662960dc616"
+      "sha256": "9c6506a9905c900579745f3e5782d3782346a7158b2a99bf7dad2ab37e48d2e8"
     },
     "designs/guided-wire-handle/README.md": {
       "local_links_valid": true,
-      "image_count": 4,
-      "sha256": "41264f8bfc8b9d08942afdd7f1d3e2dcf10274523aa741872a03768145439ec5"
+      "image_count": 5,
+      "sha256": "e2fe5733ca0a5dc339dddd4bfe646f311e857f9be2473c9293cac49a827ba703"
     },
     "docs/LEVER-HANDLE.md": {
       "local_links_valid": true,
@@ -19,12 +19,22 @@
     "docs/HEAD-V02.md": {
       "local_links_valid": true,
       "image_count": 2,
-      "sha256": "28beb42770f29c5a1eb1ffba5595f3a9531d0284775cae3246fd8bf76262a5a9"
+      "sha256": "13b9a273ab92a6ee5487d3920d43bafa3350a629ce54468f3a133cc559435ea9"
     },
     "prints/fox-build-a1-head-v02/PRINT-GUIDE.md": {
       "local_links_valid": true,
       "image_count": 1,
       "sha256": "fe211dae05d866a27aab84dd98e093fb503c463ba4e941230fb7bd1f3599e611"
+    },
+    "upgrades/adjustable-handle/README.md": {
+      "local_links_valid": true,
+      "image_count": 0,
+      "sha256": "01ed2065976f679db6ee986866bd01616ab4d020b5b8b9af8d23e0acbac92d8d"
+    },
+    "prints/fox-build-a1/PRINT-GUIDE.md": {
+      "local_links_valid": true,
+      "image_count": 0,
+      "sha256": "e901605b400eeb2b2ad69c75dcb7a012226d57cf8fda492a696697d119f01255"
     }
   },
   "current_hardware_counts": {
@@ -35,11 +45,13 @@
     "M2_nuts": 5,
     "M2_washers": 6
   },
-  "handle_print_seconds": 8114,
+  "handle_print_seconds": 8113,
   "handle_PLA_g": 28.55,
+  "replacement_cover_print_seconds": 1794,
+  "replacement_cover_PLA_g": 4.83,
   "head_print_seconds": 2013,
   "head_PLA_g": 4.49,
   "price_record_date": "2026-09-05",
   "new_price_check": false,
-  "readme_sha256": "4b37b09756d788655f33c133579d7598d8382f397baea0219ee59662960dc616"
+  "readme_sha256": "9c6506a9905c900579745f3e5782d3782346a7158b2a99bf7dad2ab37e48d2e8"
 }

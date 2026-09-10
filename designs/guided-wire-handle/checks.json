@@ -1,9 +1,26 @@
 {
   "status": "PASS",
   "scope": "New 6 mm handle, wire routing, and assembly access. Head identity and original 0–20 degree reference range checked separately; no full-stroke head clearance claim.",
-  "sourceSHA256": "4352bbf5f5c0338f0862653c76e7a37c133551c1cb12e4ec14b2ad47573d75e8",
+  "sourceSHA256": "07c17fcb69bcb57996fe44e552c6cc4377ae8cedb1fe6921680b85c1e2b15886",
   "sampleCount": 122,
-  "revision": "6mm-through-wire",
+  "revision": "6mm-cover-rotation-fix-2026-09-09",
+  "coverPrintOrientation": {
+    "rotation_deg": [
+      180,
+      0,
+      0
+    ],
+    "translation_mm": [
+      -32,
+      11.5,
+      13
+    ],
+    "rotationDeterminant": 1,
+    "symmetricDifference_mm3": 0.07152380380524834,
+    "frameOverlap_mm3": 0,
+    "mirroredNegativeControlOverlap_mm3": 85.34917182164054,
+    "symmetricDifferenceTolerance_mm3": 0.1
+  },
   "nominalMechanicalAdvantage": 4.333333333333333,
   "rodStroke_mm": 6,
   "driveSlotBacklash_mm": 0.3,

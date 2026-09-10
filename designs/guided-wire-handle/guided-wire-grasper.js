@@ -143,7 +143,9 @@ function headParts(a){return [noseHalf(),mirrorZ(noseHalf()),pose(jawHalf(),a),p
 function handleParts(a){return [paint('frame',frame()),paint('cover',cover()),paint('carriage',carriagePose(carriage(),a)),paint('lever',leverPose(lever(),a)),...clampHardware().map(g=>carriagePose(g,a)),...driveHardware().map(g=>leverPose(g,a)),...staticHardware()]}
 function assembly(){const travel=0;const a=Math.asin(travel/7)*180/Math.PI,shift=[D.headX,2.14,D.wireZ];return [...handleParts(travel),tube(),assemblyWire(travel),...headParts(a).map(g=>translate(shift,g)),...[[0,3,1.5,17],[-18,P.tubeY-6,1.5,17],[-18,P.tubeY+6,1.5,17],[6,-8.5,1,14],[11,-4,1,14],[7*Math.sin(a*Math.PI/180),3-7*Math.cos(a*Math.PI/180),1,10]].map(([x,y,r,h])=>colorize([.5,.53,.56],translate(shift,hole(x,y,r,h))))]}
 function normalize(g){const b=j.measurements.measureBoundingBox(g);return translate(b[0].map(v=>-v),g)}
-function printParts(){return HANDLE_NAMES.map(n=>normalize(n==='cover'?mirrorZ(cover()):buildPart(n)))}
+// Turn the cover over with a rigid rotation. A Z reflection reverses its
+// handedness and moves the pivot relief to the wrong side after assembly.
+function printParts(){return HANDLE_NAMES.map(n=>normalize(n==='cover'?rotateX(Math.PI,cover()):buildPart(n)))}
 function layout(){return printParts().map((g,i)=>paint(HANDLE_NAMES[i],translate([[0,0,0],[100,0,0],[140,0,0],[140,28,0]][i],g)))}
 function main(p={}){const a=Math.max(0,Math.min(D.stroke,Number(p.travel??D.stroke))),v=p.view||'handle';D.driveSide=Number(p.driveSide??1);
  if(HANDLE_NAMES.includes(v))return paint(v,printParts()[HANDLE_NAMES.indexOf(v)])

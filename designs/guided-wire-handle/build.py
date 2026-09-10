@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parent
 work=Path(sys.argv[1]);data=json.loads((work/'recipe.json').read_text());scale=1000
 dims=data['dimensions']
 sections={n:md.CrossSection([np.round(np.asarray(c)*scale) for c in cs],md.FillRule.EvenOdd) for n,cs in data['sections'].items()}
-reports={};meshes=[]
+reports={};meshes=[];assembled={};orientation={}
 for part in data['parts']:
  name=part['name'];solid=md.Manifold()
  for layer in data['plans'][name]:
@@ -24,13 +24,27 @@ for part in data['parts']:
   solid=solid-md.Manifold.cube([18300,4000,12000],True).translate([17250,0,10500])
   solid=solid-md.Manifold.cube([12000,1500,1500],True).translate([-26600,0,6500])
  assert solid.status()==md.Error.NoError,(name,solid.status())
- if name=='cover':solid=solid.mirror([0,0,1])
+ assembled[name]=solid.scale([.001]*3)
+ # A physical half-turn preserves handedness; a reflection does not.
+ if name=='cover':solid=solid.rotate([180,0,0])
  solid=solid.scale([.001]*3);raw=solid.to_mesh64()
  mesh=trimesh.Trimesh(vertices=raw.vert_properties[:,:3],faces=raw.tri_verts,process=False);mesh.apply_translation(-mesh.bounds[0]);p=ROOT/'stl'/f'{name}.stl';mesh.export(p);mesh=trimesh.load(p)
  assert mesh.is_watertight and mesh.is_winding_consistent and len(mesh.split())==1,name
  delta=abs(mesh.volume-part['volume']);assert delta<max(.2,part['volume']*.0001),(name,delta)
  target=np.array(part['bounds']);size=target[1]-target[0];assert np.max(np.abs(mesh.extents-size))<.002,(name,mesh.extents,size)
  solid=md.Manifold(md.Mesh(mesh.vertices.astype(np.float32),mesh.faces.astype(np.uint32)))
+ if name=='cover':
+  # Independently fit the saved STL to assembly datums using only rigid motion.
+  restored=solid.rotate([180,0,0]).translate([-32,11.5,13])
+  difference=(restored-assembled[name]).volume()+(assembled[name]-restored).volume()
+  overlap=(restored^assembled['frame']).volume()
+  wrong_overlap=(restored.mirror([0,1,0])^assembled['frame']).volume()
+  assert difference<.2,('cover print changes handedness',difference)
+  assert abs(overlap)<.001,('printed cover hits frame',overlap)
+  assert wrong_overlap>80,('orientation negative control failed',wrong_overlap)
+  orientation={'rotation_deg':[180,0,0],'translation_mm':[-32,11.5,13],'rotation_determinant':1,
+   'saved_STL_assembly_difference_mm3':difference,'frame_overlap_mm3':overlap,
+   'mirrored_negative_control_overlap_mm3':wrong_overlap}
  heights=[.1]+list(np.arange(.28,mesh.bounds[1,2]-.001,.16));prev=None;bad=[]
  for z in heights:
   section=solid.slice(float(z))
@@ -43,4 +57,4 @@ for part in data['parts']:
  meshes.append(mesh);print(name,len(mesh.faces),'triangles; watertight; no floating islands; volume delta',round(delta,4),flush=True)
 for mesh,offset in zip(meshes,[[0,0,0],[100,0,0],[140,0,0],[140,28,0]]):mesh.apply_translation(offset)
 layout=trimesh.util.concatenate(meshes);assert layout.is_watertight and len(layout.split())==4;layout.export(ROOT/'stl/layout.stl')
-(ROOT/'mesh-checks.json').write_text(json.dumps({'status':'PASS','source_sha256':hashlib.sha256((ROOT/'guided-wire-grasper.js').read_bytes()).hexdigest(),'method':'Shared JSCAD section recipes extruded and booleaned in Manifold on a 0.001 mm grid; no ad hoc mesh repair. Layer midplane checks at 0.20 / 0.16 mm.','limitations':'No floating islands does not prove bridge quality, fit, friction, or grip.','parts':reports},indent=2)+'\n')
+(ROOT/'mesh-checks.json').write_text(json.dumps({'status':'PASS','source_sha256':hashlib.sha256((ROOT/'guided-wire-grasper.js').read_bytes()).hexdigest(),'method':'Shared JSCAD section recipes extruded and booleaned in Manifold on a 0.001 mm grid; no ad hoc mesh repair. Layer midplane checks at 0.20 / 0.16 mm.','limitations':'No floating islands does not prove bridge quality, fit, friction, or grip.','cover_print_orientation':orientation,'parts':reports},indent=2)+'\n')

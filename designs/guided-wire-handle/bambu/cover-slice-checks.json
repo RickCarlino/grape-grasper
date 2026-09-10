@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1",
+  "printer_model_id": "N2S",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "bed": "Textured PEI Plate",
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.2,
+  "wall_loops": 5,
+  "infill": "60% gyroid",
+  "support": "Disabled; short internal bridges remain",
+  "brim": "2 mm outside only",
+  "estimated_seconds": 1794,
+  "estimated_filament_g": 4.83,
+  "layers": 40,
+  "parts": [
+    "cover"
+  ],
+  "first_layer_parts": [
+    "cover"
+  ],
+  "extrusion_bounds_xy_mm": [
+    [
+      97.2,
+      114.8
+    ],
+    [
+      158.8,
+      141.2
+    ]
+  ],
+  "feature_segment_counts": {
+    "Brim": 202,
+    "Outer wall": 6133,
+    "Inner wall": 18952,
+    "Gap infill": 1976,
+    "Bottom surface": 368,
+    "Internal solid infill": 5301,
+    "Sparse infill": 10973,
+    "Floating vertical shell": 800,
+    "Bridge": 407,
+    "Top surface": 346
+  },
+  "embedded_meshes": {
+    "cover": {
+      "triangles": 1248,
+      "watertight": true,
+      "max_vertex_deviation_mm": 1.0503029909776293e-06,
+      "volume_delta_mm3": 2.4845437565090833e-05,
+      "slicer_repairs": 0
+    }
+  },
+  "bed_mesh_bounds_mm": {
+    "cover": [
+      [
+        98.89999,
+        116.5,
+        0.0
+      ],
+      [
+        157.0999908,
+        139.5,
+        6.4499998
+      ]
+    ]
+  },
+  "gcode_md5_verified": true,
+  "source_sha256": {
+    "cover": "ec2fd5c3ea2b46266f84ab3ab1a6b325fb5385485e222643b18b566d4fd600d3"
+  },
+  "project_sha256": "e8ff2d537111bc682f349a1bae69356b5ffab08436798bf95a98b3bff0cb1f7b",
+  "slicer_notices": [
+    "No native thumbnail from the headless slicer; open the project and reslice in Bambu Studio to generate its preview.",
+    "Leave timelapse off."
+  ],
+  "physical_validation": "Builder printed the handle and reported a mirrored-cover fit failure. This corrected cover has not yet been printed. Digital checks do not establish hardware fit, grip, fatigue, or stop strength."
+}

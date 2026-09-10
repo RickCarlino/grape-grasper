@@ -6,7 +6,7 @@ A hand-operated precision grasper for dexterity practice and peeling grapes. Squ
 
 The newest handle provides **6 mm of wire travel** and **about 4.3:1 leverage**, matching the movement measured on the assembled v2 head. A sliding carriage guides the wire directly into the metal tube, and a through-hole lets excess wire exit the back. It reuses the v2 head, 116 mm tube, music wire, and the existing screw assortment.
 
-**Status:** the v2 head has been printed and assembled. The new four-part guided-wire handle is modeled, checked, and sliced, but has not been printed or force-tested.
+**Status:** the v2 head is printed and assembled. Printing the 6 mm handle exposed a reversed cover: its print export was mirrored by mistake. **Corrected September 9:** print only the [replacement purple cover](designs/guided-wire-handle/bambu/guided-wire-cover-corrected-A1-PLA.3mf) if you already have the handle. The corrected part is digitally checked and sliced; its physical fit remains to be tested.
 
 [Newest CAD](designs/guided-wire-handle/guided-wire-grasper.js) · [Guided-wire handle guide](designs/guided-wire-handle/README.md) · [Build log](#build-log)
 
@@ -14,10 +14,11 @@ The newest handle provides **6 mm of wire travel** and **about 4.3:1 leverage**,
 
 | Print | Files | Bambu A1 estimate |
 | --- | --- | --- |
-| Four guided-wire handle parts — **6 mm revision** | [3MF project](designs/guided-wire-handle/bambu/guided-wire-handle-A1-PLA.3mf) · [STL layout](designs/guided-wire-handle/stl/layout.stl) · [Assembly guide](designs/guided-wire-handle/README.md) | **2 hr 15 min / 28.55 g PLA** |
+| Replacement purple cover — **September 9 correction** | [Cover-only 3MF](designs/guided-wire-handle/bambu/guided-wire-cover-corrected-A1-PLA.3mf) · [STL](designs/guided-wire-handle/stl/cover.stl) | **30 min / 4.83 g PLA** |
+| Four guided-wire handle parts — **6 mm revision, corrected cover** | [3MF project](designs/guided-wire-handle/bambu/guided-wire-handle-A1-PLA.3mf) · [STL layout](designs/guided-wire-handle/stl/layout.stl) · [Assembly guide](designs/guided-wire-handle/README.md) | **2 hr 15 min / 28.55 g PLA** |
 | Five head parts, only if you need a head | [3MF project](prints/fox-build-a1-head-v02/grape-grasper-head-v02-A1-PLA.3mf) · [Guide](docs/HEAD-V02.md) | **34 min / 4.49 g PLA** |
 
-Both projects use an A1 with a 0.4 mm nozzle, PLA, a textured PEI plate, 0.16 mm layers, and supports off. The handle uses five walls, 60% gyroid, and 2 mm brims. Confirm the installed nozzle and keep the supplied print orientations.
+All projects use an A1 with a 0.4 mm nozzle, PLA, a textured PEI plate, 0.16 mm layers, and supports off. The handle uses five walls, 60% gyroid, and 2 mm brims. Confirm the installed nozzle and keep the supplied print orientations.
 
 ## The guided-wire handle
 
@@ -67,7 +68,13 @@ A sliding screw clamp and fixed guide reduced the unsupported wire span at the h
 
 ### Six millimetres and a rear wire exit — September 6, 2026
 
-Measuring the assembled v2 head established a 6 mm wire stroke. The handle now provides that travel while retaining leverage. Its guide slides inside the tube, and excess wire passes beneath the drive screw and out the back. The four matching parts have been checked and freshly sliced for the A1: **2 hr 15 min, 28.55 g PLA**. Next is a slow fit and motion test after printing.
+Measuring the assembled v2 head established a 6 mm wire stroke. The handle now provides that travel while retaining leverage. Its guide slides inside the tube, and excess wire passes beneath the drive screw and out the back. The four matching parts have been checked and freshly sliced for the A1: **2 hr 15 min, 28.55 g PLA**. That print exposed the cover orientation error described below.
+
+### Cover orientation corrected — September 9, 2026
+
+The 6 mm handle was printed, but the purple cover’s circular relief was on the wrong side. A wing had to be cut away to fit it. The print export had reflected the part instead of rotating it onto the bed; the assembly preview therefore looked right while the printed part was reversed.
+
+The cover export and Bambu projects are corrected. Only the cover needs reprinting: **30 min, 4.83 g PLA**. The frame, lever, and carriage are unchanged. Checks now turn the exported cover over as a real part would be fitted and confirm that it clears the frame. An orientation audit found no other reversed parts in the current nine-part build. The replacement still needs a physical fit test.
 
 ## Parts to buy or find
 
@@ -102,6 +109,7 @@ Also needed: PLA, approximately 1 mm music wire, the 6.35 mm OD tube cut to 116 
 - [Newest design and assembly instructions](designs/guided-wire-handle/README.md): self-contained JSCAD, four STLs, images, and the new A1 project.
 - [Motion checks](designs/guided-wire-handle/checks.json): 122 push/pull positions, nut and screw insertion, hardware clearances, and stop contact.
 - [Mesh/layer checks](designs/guided-wire-handle/mesh-checks.json) and [slice checks](designs/guided-wire-handle/bambu/slice-checks.json): four closed meshes, no floating islands, matching embedded project meshes, first-layer paths, and G-code checksum.
+- [Orientation audit](orientation-checks.json): all nine current parts match the intended assembly after physical rotations; the saved Bambu models match their STLs. The report also covers earlier parts and records its limits.
 - [Head guide](docs/HEAD-V02.md): the existing v2 head is unchanged.
 
 These are digital checks. Fit, grip, drive-slot wear, and PLA relaxation still need physical testing. The tube bore is much larger than the wire, so supporting the handle end does not rule out bowing inside the tube. Adjust the pivot screw for free rotation; fully tightening it can bind the lever. The old head CAD does not establish its as-built full-stroke clearances; use the actual assembled head when setting the wire length.

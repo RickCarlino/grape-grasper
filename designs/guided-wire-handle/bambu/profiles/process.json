@@ -1,6 +1,6 @@
 {
   "type": "process",
-  "name": "Grasper 6mm through-wire - A1 PLA",
+  "name": "Grasper 6mm cover rotation fix 2026-09-09 - A1 PLA",
   "from": "user",
   "instantiation": "true",
   "adaptive_layer_height": "0",
@@ -89,7 +89,7 @@
   ],
   "prime_tower_width": "35",
   "print_sequence": "by layer",
-  "print_settings_id": "Grasper 6mm through-wire - A1 PLA",
+  "print_settings_id": "Grasper 6mm cover rotation fix 2026-09-09 - A1 PLA",
   "prime_tower_brim_width": "3",
   "prime_tower_enable_framework": "0",
   "prime_tower_lift_speed": "90",

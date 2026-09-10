@@ -1,0 +1,810 @@
+{
+  "date": "2026-09-09",
+  "conclusion": "No further handedness errors found in the current nine-part build. Corrected cover is the only replacement needed for this export error.",
+  "part_count": 23,
+  "current_build_part_count": 9,
+  "method": "Saved STL fitted to assembled CAD with proper rotation and translation only. Compare every vertex and triangle centroid against the opposite mesh surface, in both directions; 0.002 mm distance tolerance.",
+  "negative_control": {
+    "previous_bad_cover_correctly_rejected": true,
+    "max_sampled_surface_error_mm": 3.7651259326773303,
+    "passing_tolerance_mm": 0.002
+  },
+  "parts": [
+    {
+      "group": "current handle",
+      "name": "frame",
+      "stl": "designs/guided-wire-handle/stl/frame.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -55.49955907519877,
+        -63.49946996309542,
+        0.0
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0013739353031538542,
+      "CAD_to_STL_max_distance_mm": 0.0013275252409082868,
+      "volume_difference_mm3": 0.5340023394201125,
+      "STL_sha256": "5b929c2f94f2cd643580a8bdf085a6c5b47e112c92af4637d2aec4ffdeeec08d",
+      "status": "PASS"
+    },
+    {
+      "group": "current handle",
+      "name": "lever",
+      "stl": "designs/guided-wire-handle/stl/lever.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -25.000200566592483,
+        -62.00036540444239,
+        13.5
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0013021088882929632,
+      "CAD_to_STL_max_distance_mm": 0.0009462399485460246,
+      "volume_difference_mm3": 0.12753720213231645,
+      "STL_sha256": "6ff8127b122b22b55a7414015e17e1fd46dd1e23b94697a4164f69eb276d43bd",
+      "status": "PASS"
+    },
+    {
+      "group": "current handle",
+      "name": "carriage",
+      "stl": "designs/guided-wire-handle/stl/carriage.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -18.00002476188889,
+        -5.00005579824,
+        4.8
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0010728687434486842,
+      "CAD_to_STL_max_distance_mm": 0.0005881476363882806,
+      "volume_difference_mm3": 0.011706844270975125,
+      "STL_sha256": "470e84f85d7784bd289264b3bec3baa3016295b2c9e799846ddcbbedc12ca212",
+      "status": "PASS"
+    },
+    {
+      "group": "current handle",
+      "name": "cover",
+      "stl": "designs/guided-wire-handle/stl/cover.stl",
+      "rotation_x_deg": 180,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -32.000009388311646,
+        11.499915925333331,
+        12.999999809265134
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0005878866902892842,
+      "CAD_to_STL_max_distance_mm": 0.000615100866183061,
+      "volume_difference_mm3": 0.05129673668943724,
+      "STL_sha256": "ec2fd5c3ea2b46266f84ab3ab1a6b325fb5385485e222643b18b566d4fd600d3",
+      "status": "PASS"
+    },
+    {
+      "group": "current v2 head",
+      "name": "nose-a",
+      "stl": "nose-a.stl",
+      "rotation_x_deg": 180,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -5.14984130859375e-05,
+        0.00010143280029240032,
+        4.6999573707580575
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0002562712800450034,
+      "CAD_to_STL_max_distance_mm": 0.0002421347152216857,
+      "volume_difference_mm3": 0.006127428465788398,
+      "STL_sha256": "8cff7de8c6f3c6cfd161ff43902de57115ceaa744519095592d8e19b16b00998",
+      "status": "PASS"
+    },
+    {
+      "group": "current v2 head",
+      "name": "nose-b",
+      "stl": "nose-b.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -5.14984130859375e-05,
+        0.00010143280029240032,
+        -4.7
+      ],
+      "STL_to_CAD_max_distance_mm": 0.00024371690048648157,
+      "CAD_to_STL_max_distance_mm": 0.0006540876505572422,
+      "volume_difference_mm3": 0.0061274284655610245,
+      "STL_sha256": "2c7804a3ac512cfb2fdc9e1425e93dd5974f6d726fd67ceb138d26d6ad90e5f2",
+      "status": "PASS"
+    },
+    {
+      "group": "current v2 head",
+      "name": "jaw-a",
+      "stl": "jaw-a.stl",
+      "rotation_x_deg": 180,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        6.661534626584142e-06,
+        1.4215179441556813e-05,
+        2.000053882598878
+      ],
+      "STL_to_CAD_max_distance_mm": 0.00010175246683353511,
+      "CAD_to_STL_max_distance_mm": 9.686970577463074e-05,
+      "volume_difference_mm3": 0.0047700332086719754,
+      "STL_sha256": "7035d73f124ad1742a3dbe7bef94c8a5c1c32aea9e3c94ed452b3aefd6c68498",
+      "status": "PASS"
+    },
+    {
+      "group": "current v2 head",
+      "name": "jaw-b",
+      "stl": "jaw-b.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        6.661534626584142e-06,
+        1.4215179441556813e-05,
+        -2.0
+      ],
+      "STL_to_CAD_max_distance_mm": 9.153442537964626e-05,
+      "CAD_to_STL_max_distance_mm": 7.234835178951084e-05,
+      "volume_difference_mm3": 0.004689587247668214,
+      "STL_sha256": "a364d46d6290b04c00fb53cd0c2ca551be75bbe65fa51267d4c089371d73ba25",
+      "status": "PASS"
+    },
+    {
+      "group": "current v2 head",
+      "name": "fixed-jaw",
+      "stl": "fixed-jaw.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -3.271484363409627e-07,
+        -3.3787231446424926e-05,
+        -2.3
+      ],
+      "STL_to_CAD_max_distance_mm": 8.453090629717348e-05,
+      "CAD_to_STL_max_distance_mm": 7.819566225422264e-05,
+      "volume_difference_mm3": 0.0026361364533613596,
+      "STL_sha256": "561a07ce49de120f4434f846ee96839fe39fbf9d1dfa722d8e6a68b56eaf3bed",
+      "status": "PASS"
+    },
+    {
+      "group": "earlier direct-clamp handle",
+      "name": "fixed-grip",
+      "stl": "fixed-grip.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -47.500000000000014,
+        -63.499900000000004,
+        0.0
+      ],
+      "STL_to_CAD_max_distance_mm": 4.333988536396876e-06,
+      "CAD_to_STL_max_distance_mm": 3.772457674017599e-06,
+      "volume_difference_mm3": 0.00038653013507428113,
+      "STL_sha256": "70b8f53a7a7140133f9c3f2ef4c3391784854b4515556a4e2aed8c0c01fc04b5",
+      "status": "PASS"
+    },
+    {
+      "group": "earlier direct-clamp handle",
+      "name": "squeeze-lever",
+      "stl": "squeeze-lever.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -11.999881818333332,
+        -61.999939393888894,
+        5.4
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0014552172356025739,
+      "CAD_to_STL_max_distance_mm": 0.0008107361337123098,
+      "volume_difference_mm3": 0.00827894728990941,
+      "STL_sha256": "e6afe88c2a5e9fee2a3acd0d8c46dcd9d89c1380c5d3090a1592994338b04967",
+      "status": "PASS"
+    },
+    {
+      "group": "earlier direct-clamp handle",
+      "name": "tube-cap",
+      "stl": "tube-cap.stl",
+      "rotation_x_deg": 180,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        40.0,
+        10.5,
+        14.80000009536743
+      ],
+      "STL_to_CAD_max_distance_mm": 5.86804648942881e-07,
+      "CAD_to_STL_max_distance_mm": 5.230789703489424e-07,
+      "volume_difference_mm3": 2.4942480649770005e-05,
+      "STL_sha256": "73225886786c2944bf5ca6c20395dcb08ada5c0b2e314619bd423ec7617952ee",
+      "status": "PASS"
+    },
+    {
+      "group": "archived v0.1",
+      "name": "handle-a",
+      "stl": "archive/v0.1/handle-a.stl",
+      "rotation_x_deg": 180,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        0.00020551757812370397,
+        0.00010196166991960354,
+        6.19994068145752
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0012592519005350318,
+      "CAD_to_STL_max_distance_mm": 0.0005561957517411965,
+      "volume_difference_mm3": 0.12200350914372393,
+      "STL_sha256": "5ea7c70f99c157bc7b010b7cc35ad9507ec8f489d0ac28a46ad61635d38f9941",
+      "status": "PASS"
+    },
+    {
+      "group": "archived v0.1",
+      "name": "handle-b",
+      "stl": "archive/v0.1/handle-b.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        0.00020551757812370397,
+        0.00010196166991960354,
+        -6.2
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0005697243976190552,
+      "CAD_to_STL_max_distance_mm": 0.0005760707310565476,
+      "volume_difference_mm3": 0.12200949491034407,
+      "STL_sha256": "82c7ada6b44ac7017c1d97e2ec5d2c64923d1832ac562721f9c2e37ab632a57d",
+      "status": "PASS"
+    },
+    {
+      "group": "archived v0.1",
+      "name": "nose-a",
+      "stl": "archive/v0.1/nose-a.stl",
+      "rotation_x_deg": 180,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        0.0001049041748046875,
+        -3.814697265625e-06,
+        6.200110435485841
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0013967799211414803,
+      "CAD_to_STL_max_distance_mm": 0.0011124585468581553,
+      "volume_difference_mm3": 0.0541041907631552,
+      "STL_sha256": "7dad58def53fe8d2b8011edf582854a82e7a47f25d0ece592d446f57de14f7ab",
+      "status": "PASS"
+    },
+    {
+      "group": "archived v0.1",
+      "name": "nose-b",
+      "stl": "archive/v0.1/nose-b.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        0.0001049041748046875,
+        -3.814697265625e-06,
+        -6.2
+      ],
+      "STL_to_CAD_max_distance_mm": 0.00024989546772417805,
+      "CAD_to_STL_max_distance_mm": 0.0013366182013121116,
+      "volume_difference_mm3": 0.054096030927667016,
+      "STL_sha256": "0d9e712c136dc0f24d5835ccf83242feebcb7b752e2f81dae312a7c49ed5a231",
+      "status": "PASS"
+    },
+    {
+      "group": "archived v0.1",
+      "name": "trigger",
+      "stl": "archive/v0.1/trigger.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -3.7538859047003825e-05,
+        -0.00011907348631012837,
+        -3.0
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0009131951127238979,
+      "CAD_to_STL_max_distance_mm": 0.0014205067686350232,
+      "volume_difference_mm3": 0.12441108299617554,
+      "STL_sha256": "c98627a76bef685154618ee75171f2e8c485a036ffd605bde765316c0b8b9b82",
+      "status": "PASS"
+    },
+    {
+      "group": "archived v0.1",
+      "name": "jaw",
+      "stl": "archive/v0.1/jaw.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        6.534072367214705e-05,
+        -9.995168052334691e-06,
+        -3.0
+      ],
+      "STL_to_CAD_max_distance_mm": 0.00014405689890513158,
+      "CAD_to_STL_max_distance_mm": 0.00014279870169392136,
+      "volume_difference_mm3": 0.005040629591235302,
+      "STL_sha256": "0de316ddffd4d0df174c3e900f7cf71f1a8b55b7bb2aa38367badff10a6dd6d0",
+      "status": "PASS"
+    },
+    {
+      "group": "saved metal-head concept",
+      "name": "cheek-a",
+      "stl": "concepts/metal-head-v03/stl/cheek-a.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -7.8500000000000005,
+        -2.15,
+        1.9
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0010509651487376646,
+      "CAD_to_STL_max_distance_mm": 0.001101051843675811,
+      "volume_difference_mm3": 0.0001914874803254918,
+      "STL_sha256": "1efe94786a9ffd4f102ddd44fb53173a44a53c8bf918c6d0c0687195a8df69e6",
+      "status": "PASS"
+    },
+    {
+      "group": "saved metal-head concept",
+      "name": "cheek-b",
+      "stl": "concepts/metal-head-v03/stl/cheek-b.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -7.849999999999999,
+        -2.15,
+        -2.7
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0010509651487376574,
+      "CAD_to_STL_max_distance_mm": 0.0011010518436762153,
+      "volume_difference_mm3": 0.00019148748033970264,
+      "STL_sha256": "977ead1cd6ef960ac76ef6c3a643f76e2310d0161a4399fb0d16e739d89f635f",
+      "status": "PASS"
+    },
+    {
+      "group": "saved metal-head concept",
+      "name": "moving-jaw",
+      "stl": "concepts/metal-head-v03/stl/moving-jaw.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -4.950012000000001,
+        -1.749962,
+        -0.5
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0013108807294855461,
+      "CAD_to_STL_max_distance_mm": 0.0010459136457460227,
+      "volume_difference_mm3": 0.00043409054931942137,
+      "STL_sha256": "83326a06f167c89573435dd0f6b5e7baeb4c8c3b6d24d913d411585f590c53c9",
+      "status": "PASS"
+    },
+    {
+      "group": "saved metal-head concept",
+      "name": "fixed-jaw",
+      "stl": "concepts/metal-head-v03/stl/fixed-jaw.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        1.4500160000000002,
+        -2.0999920000000007,
+        -0.5
+      ],
+      "STL_to_CAD_max_distance_mm": 0.00022019565839319957,
+      "CAD_to_STL_max_distance_mm": 3.5087543687029674e-05,
+      "volume_difference_mm3": 0.0002004544502245409,
+      "STL_sha256": "f57eff8e867156f6061c8bf6c35215faeec534dc24d1bd53df11a80a1ea42079",
+      "status": "PASS"
+    },
+    {
+      "group": "saved metal-head concept",
+      "name": "insert",
+      "stl": "concepts/metal-head-v03/stl/insert.stl",
+      "rotation_x_deg": 0,
+      "rotation_determinant": 1,
+      "translation_mm": [
+        -17.0,
+        -2.75,
+        -2.75
+      ],
+      "STL_to_CAD_max_distance_mm": 0.0014387619511406055,
+      "CAD_to_STL_max_distance_mm": 0.0013817844826450858,
+      "volume_difference_mm3": 0.0009559593805761324,
+      "STL_sha256": "650a6f000ff83cd25fb1ec810458a770ff105bd940950754711ec437966cffaa",
+      "status": "PASS"
+    }
+  ],
+  "projects": [
+    {
+      "project": "archive/v0.1/prints/fox-build-a1/grape-grasper-A1-PLA.3mf",
+      "project_sha256": "59e45e27c97aa3113cde65dd55ce1b38cc0ced94cd9c55d663c61b2e6649d502",
+      "placement_status": "PASS",
+      "source_mesh_status": "PASS",
+      "parts": [
+        {
+          "name": "handle-a.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000008124093,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.1736856435697768e-06,
+          "source_STL": "archive/v0.1/handle-a.stl"
+        },
+        {
+          "name": "handle-b.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000008124093,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.1736856435697768e-06,
+          "source_STL": "archive/v0.1/handle-b.stl"
+        },
+        {
+          "name": "trigger.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000009894803,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 3.843798834107246e-06,
+          "source_STL": "archive/v0.1/trigger.stl"
+        },
+        {
+          "name": "nose-b.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 9.597986858626267e-07,
+          "source_STL": "archive/v0.1/nose-b.stl"
+        },
+        {
+          "name": "nose-a.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 9.597986858626267e-07,
+          "source_STL": "archive/v0.1/nose-a.stl"
+        },
+        {
+          "name": "jaw.stl",
+          "placement_determinants": [
+            1.0,
+            0.9999999997476812,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 6.748716939736471e-07,
+          "source_STL": "archive/v0.1/jaw.stl"
+        }
+      ]
+    },
+    {
+      "project": "designs/guided-wire-handle/bambu/guided-wire-cover-corrected-A1-PLA.3mf",
+      "project_sha256": "e8ff2d537111bc682f349a1bae69356b5ffab08436798bf95a98b3bff0cb1f7b",
+      "placement_status": "PASS",
+      "source_mesh_status": "PASS",
+      "parts": [
+        {
+          "name": "cover.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 1.0503029909776293e-06,
+          "source_STL": "designs/guided-wire-handle/stl/cover.stl"
+        }
+      ]
+    },
+    {
+      "project": "designs/guided-wire-handle/bambu/guided-wire-handle-A1-PLA.3mf",
+      "project_sha256": "af5121525990fffd210eaedba71904c3cacfb6a653c90e89d4f687d2417058f5",
+      "placement_status": "PASS",
+      "source_mesh_status": "PASS",
+      "parts": [
+        {
+          "name": "frame.stl",
+          "placement_determinants": [
+            1.0,
+            1.000000000231516,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.674681090857391e-06,
+          "source_STL": "designs/guided-wire-handle/stl/frame.stl"
+        },
+        {
+          "name": "lever.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000005688563,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 1.9416497505625633e-06,
+          "source_STL": "designs/guided-wire-handle/stl/lever.stl"
+        },
+        {
+          "name": "cover.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 1.0503029909776293e-06,
+          "source_STL": "designs/guided-wire-handle/stl/cover.stl"
+        },
+        {
+          "name": "carriage.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 5.139216302011795e-07,
+          "source_STL": "designs/guided-wire-handle/stl/carriage.stl"
+        }
+      ]
+    },
+    {
+      "project": "prints/fox-build-a1/grape-grasper-A1-PLA.3mf",
+      "project_sha256": "59e45e27c97aa3113cde65dd55ce1b38cc0ced94cd9c55d663c61b2e6649d502",
+      "placement_status": "PASS",
+      "source_mesh_status": "PASS",
+      "parts": [
+        {
+          "name": "handle-a.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000008124093,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.1736856435697768e-06,
+          "source_STL": "archive/v0.1/handle-a.stl"
+        },
+        {
+          "name": "handle-b.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000008124093,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.1736856435697768e-06,
+          "source_STL": "archive/v0.1/handle-b.stl"
+        },
+        {
+          "name": "trigger.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000009894803,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 3.843798834107246e-06,
+          "source_STL": "archive/v0.1/trigger.stl"
+        },
+        {
+          "name": "nose-b.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 9.597986858626267e-07,
+          "source_STL": "archive/v0.1/nose-b.stl"
+        },
+        {
+          "name": "nose-a.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 9.597986858626267e-07,
+          "source_STL": "archive/v0.1/nose-a.stl"
+        },
+        {
+          "name": "jaw.stl",
+          "placement_determinants": [
+            1.0,
+            0.9999999997476812,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 6.748716939736471e-07,
+          "source_STL": "archive/v0.1/jaw.stl"
+        }
+      ]
+    },
+    {
+      "project": "prints/fox-build-a1-head-v02/grape-grasper-head-v02-A1-PLA.3mf",
+      "project_sha256": "19aef1b08c5d6e1aeaac0f672ebbd2ee72e39eaaa97a4e41e2faa4b940447b93",
+      "placement_status": "PASS",
+      "source_mesh_status": "PASS",
+      "parts": [
+        {
+          "name": "nose-a.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 5.766601907407844e-07,
+          "source_STL": "nose-a.stl"
+        },
+        {
+          "name": "nose-b.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 5.766601907407844e-07,
+          "source_STL": "nose-b.stl"
+        },
+        {
+          "name": "jaw-a.stl",
+          "placement_determinants": [
+            1.0,
+            0.9999999996806792,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 6.570909690481482e-07,
+          "source_STL": "jaw-a.stl"
+        },
+        {
+          "name": "jaw-b.stl",
+          "placement_determinants": [
+            1.0,
+            0.9999999993089408,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 6.570909690481482e-07,
+          "source_STL": "jaw-b.stl"
+        },
+        {
+          "name": "fixed-jaw.stl",
+          "placement_determinants": [
+            1.0,
+            0.999999999750447,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.416865860047992e-07,
+          "source_STL": "fixed-jaw.stl"
+        }
+      ]
+    },
+    {
+      "project": "prints/fox-build-a1-lever/grape-grasper-lever-A1-PLA.3mf",
+      "project_sha256": "3a8d1bb73ff014011bf76188c5005acf602aa1cd112182e978181589d99db912",
+      "placement_status": "PASS",
+      "source_mesh_status": "PASS",
+      "parts": [
+        {
+          "name": "fixed-grip.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000004490721,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 2.0964897331882417e-06,
+          "source_STL": "fixed-grip.stl"
+        },
+        {
+          "name": "squeeze-lever.stl",
+          "placement_determinants": [
+            1.0,
+            1.0000000005688563,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 1.937340442736054e-06,
+          "source_STL": "squeeze-lever.stl"
+        },
+        {
+          "name": "tube-cap.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "embedded_STL_match": true,
+          "max_vertex_error_mm": 3.606699805288492e-07,
+          "source_STL": "tube-cap.stl"
+        }
+      ]
+    },
+    {
+      "project": "upgrades/adjustable-handle/prints/clamp-test/clamp-test-A1-PLA.3mf",
+      "project_sha256": "3e389cfd206573779593f3af711975dc15e9eb95240f40c1d40714df15fd1e70",
+      "placement_status": "PASS",
+      "source_mesh_status": "NOT CHECKED \u2014 removed source",
+      "parts": [
+        {
+          "name": "carrier.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "assembly_geometry_check": "Unavailable: superseded adjustable-handle sources and STLs were removed."
+        }
+      ]
+    },
+    {
+      "project": "upgrades/adjustable-handle/prints/full/grape-grasper-adjustable-handle-A1-PLA.3mf",
+      "project_sha256": "69ddccbe2e772666c19ea75082807eac1e07716b029895c09f96c114aef9249e",
+      "placement_status": "PASS",
+      "source_mesh_status": "NOT CHECKED \u2014 removed source",
+      "parts": [
+        {
+          "name": "handle-b.stl",
+          "placement_determinants": [
+            1.0,
+            0.999999999472364,
+            1.0
+          ],
+          "assembly_geometry_check": "Unavailable: superseded adjustable-handle sources and STLs were removed."
+        },
+        {
+          "name": "handle-a.stl",
+          "placement_determinants": [
+            1.0,
+            0.999999999472364,
+            1.0
+          ],
+          "assembly_geometry_check": "Unavailable: superseded adjustable-handle sources and STLs were removed."
+        },
+        {
+          "name": "trigger-a.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "assembly_geometry_check": "Unavailable: superseded adjustable-handle sources and STLs were removed."
+        },
+        {
+          "name": "trigger-b.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "assembly_geometry_check": "Unavailable: superseded adjustable-handle sources and STLs were removed."
+        },
+        {
+          "name": "carrier.stl",
+          "placement_determinants": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "assembly_geometry_check": "Unavailable: superseded adjustable-handle sources and STLs were removed."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Orientation and source correspondence audit only; does not establish force, friction, physical fit, or print quality.",
+    "Two superseded adjustable-handle projects have no remaining source/STLs. Their saved placements contain no reflections, but their assembly geometry could not be audited."
+  ],
+  "source_files_sha256": {
+    "designs/guided-wire-handle/guided-wire-grasper.js": "07c17fcb69bcb57996fe44e552c6cc4377ae8cedb1fe6921680b85c1e2b15886",
+    "precision-grasper.js": "1236aef43a82f122f8207ad9104798c6ef455b1dd8665a973cecd04e4df6b1a0",
+    "archive/v0.1/precision-grasper.js": "a760da910c7b1aae6df9c52f41f390a4b3e9b787aefca74ecdc95a02c50fe9e4",
+    "concepts/metal-head-v03/metal-head.js": "5e89b82b0327b518c0cda1c03ab5f8846cc64dd7668b4bf0b65118233683bd2e"
+  }
+}

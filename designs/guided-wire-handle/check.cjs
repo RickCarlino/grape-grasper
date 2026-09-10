@@ -5,6 +5,20 @@ const vol=g=>Math.abs(j.measurements.measureVolume(g)),over=(a,b)=>vol(intersect
 const failures=[],motion=[];
 const ck=(name,v,at)=>{if(v>1e-3)failures.push({name,at,mm3:v})};
 const frame=m.frame(),cover=m.cover(),lever=m.lever(),carriage=m.carriage(),tube=m.tube(),hw=m.staticHardware(),wireHs=m.clampHardware(),driveHs=m.driveHardware();
+// Reassemble the printable cover using a physical half-turn, never a mirror.
+// Its tube saddle faces down and the circular relief must clear the +Y pivot.
+const printedCover=m.printParts()[m.HANDLE_NAMES.indexOf('cover')];
+const assembledPrint=j.transforms.translate([-32,11.5,13],j.transforms.rotateX(Math.PI,printedCover));
+const coverPrintOrientation={rotation_deg:[180,0,0],translation_mm:[-32,11.5,13],rotationDeterminant:1,
+ symmetricDifference_mm3:vol(subtract(assembledPrint,cover))+vol(subtract(cover,assembledPrint)),
+ frameOverlap_mm3:over(assembledPrint,frame),
+ mirroredNegativeControlOverlap_mm3:over(j.transforms.mirrorY(cover),frame)};
+// Fixed assembly datums differ from JSCAD's normalized bounds by <0.0001 mm.
+// Allow 0.1 mm3 boolean residue (0.003% of this part); the mirror bug loses 196 mm3.
+coverPrintOrientation.symmetricDifferenceTolerance_mm3=.1;
+if(coverPrintOrientation.symmetricDifference_mm3>.1)failures.push({name:'printedCoverHandedness',...coverPrintOrientation});
+ck('printedCoverFrameCollision',coverPrintOrientation.frameOverlap_mm3);
+if(coverPrintOrientation.mirroredNegativeControlOverlap_mm3<80)failures.push({name:'coverOrientationTestLostSensitivity'});
 const quick=process.argv.includes('--quick'),step=quick?1:.1;
 for(const side of [-1,1]){m.D.driveSide=side;for(let i=0;i<=Math.round(m.D.stroke/step);i++){const a=i*step;
  const slide=m.carriagePose(carriage,a),arm=m.leverPose(lever,a),wire=m.wire(a),ws=wireHs.map(g=>m.carriagePose(g,a)),ds=driveHs.map(g=>m.leverPose(g,a));
@@ -67,7 +81,7 @@ if(m.D.tongueEnd-m.D.limit-m.D.tubeStart<.3)failures.push({name:'lostTubeOverlap
 const freeStops=[-1,1].map(side=>({displacement:side*(m.D.limit-.01),overlap:over(translate([side*(m.D.limit-.01),0,0],carriage),frame)}));
 for(const row of freeStops)ck('atStop',row.overlap,row.displacement);
 const report={status:failures.length?'FAIL':'PASS',scope:'New 6 mm handle, wire routing, and assembly access. Head identity and original 0–20 degree reference range checked separately; no full-stroke head clearance claim.',sourceSHA256:crypto.createHash('sha256').update(fs.readFileSync(__dirname+'/guided-wire-grasper.js')).digest('hex'),sampleCount:motion.length,
- revision:'6mm-through-wire',nominalMechanicalAdvantage:m.D.finger/m.D.crank,rodStroke_mm:m.D.stroke,driveSlotBacklash_mm:.3,stopToStopTravel_mm:2*m.D.limit,workingTravelMarginEachEnd_mm:m.D.limit-half,fingerTravel_mm:m.D.stroke*m.D.finger/m.D.crank,
+ revision:'6mm-cover-rotation-fix-2026-09-09',coverPrintOrientation,nominalMechanicalAdvantage:m.D.finger/m.D.crank,rodStroke_mm:m.D.stroke,driveSlotBacklash_mm:.3,stopToStopTravel_mm:2*m.D.limit,workingTravelMarginEachEnd_mm:m.D.limit-half,fingerTravel_mm:m.D.stroke*m.D.finger/m.D.crank,
  unsupportedHandleGap_mm:[0,0],tongueTubeOverlap_mm:[m.D.tongueEnd-half-m.D.tubeStart,m.D.tongueEnd+half-m.D.tubeStart],tongueCrossSection_mm:[3.4,3.4],tongueTubeRadialClearance_mm:m.P.tubeID/2-Math.sqrt(2)*1.7,driveTipAboveWire_mm:m.D.driveTip-(m.D.wireZ+.5),rearWirePassage_mm:[1.5,1.5],clampToTube_mm:[m.D.tubeStart-half,m.D.tubeStart+half],stationaryGuideLength_mm:m.D.tubeStart-m.D.guideStart,
  sliderClearanceEachSide_mm:.25,sliderVerticalClearance_mm:.35,drivePinEngagement_mm:12.3-m.D.driveTip,drivePinFloorClearance_mm:m.D.driveTip-8.3,motion,insertion,stops,driveContact,assemblyAccess,headUnchanged,legacyHead,legacyHeadMaxWireTravel_mm:m.D.legacyStroke,throughWire,freeStops,headExtensionDiagnostic,headCalibrationNote:"Builder measured 6 mm on the printed v2 head. The old ideal 7 mm crank model shows small body overlaps beyond its original range and does not establish the as-built jaw angle. Keep the assembled head, fit the wire to its real closed position, and check for rubbing without forcing it.",failures,
  limitations:'Prototype: dimensional collision checks, not force, buckling, wear, or friction tests. Printed guide fit and wire grip require a bench test. Tube ID is much larger than the wire; internal bowing remains possible.'};

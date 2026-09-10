@@ -7,4 +7,4 @@ from render_assembly import render_meshes
 work=Path(sys.argv[1]);views=json.loads((work/'views.json').read_text())
 for n,meshes in views.items():
  render_meshes(meshes,ROOT/'images'/f'{n}.png');print('Rendered',n,flush=True)
-(ROOT/'images/render-state.json').write_text(json.dumps({'source_sha256':hashlib.sha256((ROOT/'guided-wire-grasper.js').read_bytes()).hexdigest(),'images':{n:hashlib.sha256((ROOT/'images'/f'{n}.png').read_bytes()).hexdigest() for n in views}},indent=2)+'\n')
+(ROOT/'images/render-state.json').write_text(json.dumps({'source_sha256':hashlib.sha256((ROOT/'guided-wire-grasper.js').read_bytes()).hexdigest(),'inputs':{str(p.relative_to(ROOT.parents[1])):hashlib.sha256(p.read_bytes()).hexdigest() for p in [ROOT/'export.cjs',ROOT/'render.py',ROOT.parents[1]/'scripts/render_assembly.py']},'images':{n:hashlib.sha256((ROOT/'images'/f'{n}.png').read_bytes()).hexdigest() for n in views}},indent=2)+'\n')

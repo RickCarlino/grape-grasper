@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Verify a Bambu 3MF's embedded meshes, print settings, and actual extrusion paths.
-Usage: python scripts/verify_bambu.py PATH.3mf handle|head|guided [--source-dir STL_DIR] [--output-dir DIR]
+Usage: python scripts/verify_bambu.py PATH.3mf handle|head|guided|cover [--source-dir STL_DIR] [--output-dir DIR]
 Requires numpy and trimesh; paths are resolved relative to this repository.
 """
 import argparse, collections, hashlib, json, re, zipfile
@@ -10,7 +10,7 @@ import numpy as np
 import trimesh
 ROOT=Path(__file__).resolve().parents[1]
 NS={'c':'http://schemas.microsoft.com/3dmanufacturing/core/2015/02','p':'http://schemas.microsoft.com/3dmanufacturing/production/2015/06'}
-SETS={'handle':(['fixed-grip','squeeze-lever','tube-cap'],5,'60%'), 'head':(['nose-a','nose-b','jaw-a','jaw-b','fixed-jaw'],4,'50%'), 'guided':(['frame','lever','carriage','cover'],5,'60%')}
+SETS={'handle':(['fixed-grip','squeeze-lever','tube-cap'],5,'60%'), 'head':(['nose-a','nose-b','jaw-a','jaw-b','fixed-jaw'],4,'50%'), 'guided':(['frame','lever','carriage','cover'],5,'60%'), 'cover':(['cover'],5,'60%')}
 def transform(v,s):
  m=np.asarray([float(x) for x in s.split()]);return v@m[:9].reshape(3,3)+m[9:]
 def max_nearest(a,b):
@@ -38,6 +38,10 @@ def main():
    meshxml=ET.fromstring(z.read(comp.attrib['{'+NS['p']+'}path'].lstrip('/'))).find('c:resources/c:object/c:mesh',NS)
    v=np.array([[float(e.attrib[k]) for k in ('x','y','z')] for e in meshxml.findall('c:vertices/c:vertex',NS)])
    f=np.array([[int(e.attrib[k]) for k in ('v1','v2','v3')] for e in meshxml.findall('c:triangles/c:triangle',NS)])
+   # A slicer placement must also preserve handedness.
+   for placement in (comp.attrib['transform'],item.attrib['transform']):
+    determinant=np.linalg.det(np.array([float(x) for x in placement.split()])[:9].reshape(3,3))
+    assert abs(determinant-1)<.0001,(name,'placement is not a rigid rotation',determinant)
    bed=transform(transform(v,comp.attrib['transform']),item.attrib['transform']);bounds=np.array([bed.min(0),bed.max(0)]);bed_bounds[name]=bounds.tolist()
    assert abs(bounds[0,2])<.001 and bounds[1,2]<256 and bounds[:,:2].min()>5 and bounds[:,:2].max()<251,(name,'bed bounds')
    # Undo the saved source-centering transform, then compare against the actual repository STL.
@@ -59,6 +63,7 @@ def main():
  for line in gcode.splitlines():
   if line.startswith('; Z_HEIGHT:'):layer=float(line.split(':',1)[1])
   if line.startswith('; FEATURE:'):feature=line.split(':',1)[1].strip()
+  if line.startswith('; OBJECT_ID:'):oid=line.split(':',1)[1].strip()
   if line.startswith('; start printing object'):oid=line.rsplit(':',1)[1].strip()
   if line.startswith('; stop printing object'):oid=None
   raw=line.split(';',1)[0].strip()
@@ -82,7 +87,7 @@ def main():
  max_height=max(b[1][2] for b in bed_bounds.values());assert max_height-.2<layers[-1]<max_height+.05
  first={ids[x] for x in object_ids[zs<.25] if x in ids};assert first==set(expected)
  counts=collections.Counter(features);assert not any(n.startswith('Support') for n in counts)
- report={'status':'PASS','slicer':'Bambu Studio 02.08.02.61','printer':'Bambu Lab A1','printer_model_id':'N2S','nozzle_mm':.4,'material':'Generic PLA','bed':'Textured PEI Plate','layer_height_mm':.16,'first_layer_height_mm':.2,'wall_loops':walls,'infill':infill+' gyroid','support':'Disabled; short internal bridges remain','brim':'2 mm outside only','estimated_seconds':int(meta['prediction']),'estimated_filament_g':float(meta['weight']),'layers':len(layers),'parts':sorted(expected),'first_layer_parts':sorted(first),'extrusion_bounds_xy_mm':[segments.reshape(-1,2).min(0).tolist(),segments.reshape(-1,2).max(0).tolist()],'feature_segment_counts':dict(counts),'embedded_meshes':embedded,'bed_mesh_bounds_mm':bed_bounds,'gcode_md5_verified':True,'source_sha256':{n:hashlib.sha256((source_dir/(n+'.stl')).read_bytes()).hexdigest() for n in expected},'project_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'slicer_notices':notices+['Leave timelapse off.'],'physical_validation':'Handle not yet printed; head printed and assembled by the builder. Digital checks do not establish hardware fit, grip, fatigue, or stop strength.'}
+ report={'status':'PASS','slicer':'Bambu Studio 02.08.02.61','printer':'Bambu Lab A1','printer_model_id':'N2S','nozzle_mm':.4,'material':'Generic PLA','bed':'Textured PEI Plate','layer_height_mm':.16,'first_layer_height_mm':.2,'wall_loops':walls,'infill':infill+' gyroid','support':'Disabled; short internal bridges remain','brim':'2 mm outside only','estimated_seconds':int(meta['prediction']),'estimated_filament_g':float(meta['weight']),'layers':len(layers),'parts':sorted(expected),'first_layer_parts':sorted(first),'extrusion_bounds_xy_mm':[segments.reshape(-1,2).min(0).tolist(),segments.reshape(-1,2).max(0).tolist()],'feature_segment_counts':dict(counts),'embedded_meshes':embedded,'bed_mesh_bounds_mm':bed_bounds,'gcode_md5_verified':True,'source_sha256':{n:hashlib.sha256((source_dir/(n+'.stl')).read_bytes()).hexdigest() for n in expected},'project_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'slicer_notices':notices+['Leave timelapse off.'],'physical_validation':'Builder printed the handle and reported a mirrored-cover fit failure. This corrected cover has not yet been printed. Digital checks do not establish hardware fit, grip, fatigue, or stop strength.'}
  out.mkdir(parents=True,exist_ok=True);(out/'slice-checks.json').write_text(json.dumps(report,indent=2)+'\n');(out/p.with_suffix('.gcode').name).write_bytes(gbytes)
  np.savez_compressed(out/'toolpaths.npz',segments=segments,zs=zs,features=features,object_ids=object_ids.astype(str))
  print(json.dumps({'project':str(p),'status':'PASS','seconds':report['estimated_seconds'],'grams':report['estimated_filament_g'],'parts':report['parts'],'max_embedded_mesh_error_mm':max(e['max_vertex_deviation_mm'] for e in embedded.values())},indent=2))

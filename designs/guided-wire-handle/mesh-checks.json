@@ -1,8 +1,24 @@
 {
   "status": "PASS",
-  "source_sha256": "4352bbf5f5c0338f0862653c76e7a37c133551c1cb12e4ec14b2ad47573d75e8",
+  "source_sha256": "07c17fcb69bcb57996fe44e552c6cc4377ae8cedb1fe6921680b85c1e2b15886",
   "method": "Shared JSCAD section recipes extruded and booleaned in Manifold on a 0.001 mm grid; no ad hoc mesh repair. Layer midplane checks at 0.20 / 0.16 mm.",
   "limitations": "No floating islands does not prove bridge quality, fit, friction, or grip.",
+  "cover_print_orientation": {
+    "rotation_deg": [
+      180,
+      0,
+      0
+    ],
+    "translation_mm": [
+      -32,
+      11.5,
+      13
+    ],
+    "rotation_determinant": 1,
+    "saved_STL_assembly_difference_mm3": 0.0001652347243286518,
+    "frame_overlap_mm3": 0.0,
+    "mirrored_negative_control_overlap_mm3": 85.3588423437004
+  },
   "parts": {
     "frame": {
       "watertight": true,
@@ -86,11 +102,11 @@
           6.449999809265137
         ]
       ],
-      "volume_mm3": 3993.067816501518,
-      "CAD_volume_delta_mm3": 0.05129397149039505,
+      "volume_mm3": 3993.0678192667183,
+      "CAD_volume_delta_mm3": 0.05129673669080148,
       "floating_islands": [],
       "sampled_layers": 40,
-      "STL_sha256": "9c2537984b103e172f2c68eff84474d91e73edd2ffaa8c276ae82a4b01060ed0"
+      "STL_sha256": "ec2fd5c3ea2b46266f84ab3ab1a6b325fb5385485e222643b18b566d4fd600d3"
     }
   }
 }
